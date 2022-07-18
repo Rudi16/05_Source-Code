@@ -1,0 +1,151 @@
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.exe.config
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.exe
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.pdb
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Dapper.dll
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Newtonsoft.Json.dll
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\WaitWnd.dll
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Dapper.xml
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Newtonsoft.Json.xml
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\WaitWnd.pdb
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmActivation.resources
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmLogin.resources
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterCustomer.resources
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterusers.resources
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMenu.resources
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterLabel.resources
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmAbout.resources
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmUseSQLServer.resources
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.Properties.Resources.resources
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.csproj.GenerateResource.Cache
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.exe
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.pdb
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.csprojResolveAssemblyReference.cache
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterPointCheck.resources
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Transfer.CE.dll
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\OpenNETCF.Desktop.Communication.dll
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmDasboard.resources
+E:\Ruday\Project\Package\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmHistory.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\OpenNETCF.Desktop.Communication.dll
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.exe.config
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.exe
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.pdb
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Newtonsoft.Json.dll
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\System.Data.SqlServerCe.dll
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Newtonsoft.Json.xml
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.csprojResolveAssemblyReference.cache
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmActivation.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmLogin.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmDasboard.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmHistory.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterLineProd.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterSKU.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterArea.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterusers.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMenu.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmAbout.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmSettings.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmUseSQLServer.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.Properties.Resources.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.csproj.GenerateResource.Cache
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.exe
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.pdb
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.exe.config
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.exe
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.pdb
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\OpenNETCF.Desktop.Communication.dll
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.exe
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.pdb
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Newtonsoft.Json.dll
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\System.Data.SqlServerCe.dll
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\bin\Debug\Newtonsoft.Json.xml
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.csprojResolveAssemblyReference.cache
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmActivation.resources
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmLogin.resources
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmDasboard.resources
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmHistory.resources
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterLineProd.resources
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterSKU.resources
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterArea.resources
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterusers.resources
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMenu.resources
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmAbout.resources
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmSettings.resources
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmUseSQLServer.resources
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.Properties.Resources.resources
+G:\SATO\Project\H\HEINZ ABC\Sato_2Pointcheck\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.csproj.GenerateResource.Cache
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.exe.config
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.exe
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.pdb
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\OpenNETCF.Desktop.Communication.dll
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.exe
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.pdb
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\Newtonsoft.Json.dll
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\System.Data.SqlServerCe.dll
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\Newtonsoft.Json.xml
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.csprojResolveAssemblyReference.cache
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmActivation.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmLogin.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmDasboard.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmHistory.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterLineProd.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterSKU.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterArea.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterusers.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMenu.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmAbout.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmSettings.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmUseSQLServer.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.Properties.Resources.resources
+E:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.csproj.GenerateResource.Cache
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\OpenNETCF.Desktop.Communication.dll
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.exe.config
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.exe
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.pdb
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\Newtonsoft.Json.dll
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\System.Data.SqlServerCe.dll
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\Newtonsoft.Json.xml
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.csprojAssemblyReference.cache
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmActivation.resources
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmLogin.resources
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmDasboard.resources
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmHistory.resources
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterLineProd.resources
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterSKU.resources
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterArea.resources
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterusers.resources
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMenu.resources
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmAbout.resources
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmSettings.resources
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmUseSQLServer.resources
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.Properties.Resources.resources
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.csproj.GenerateResource.cache
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.csproj.CoreCompileInputs.cache
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.csproj.CopyComplete
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.exe
+D:\Ruday\Project\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.pdb
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\OpenNETCF.Desktop.Communication.dll
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.exe.config
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.exe
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\Sato_2Pointcheck.pdb
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\Newtonsoft.Json.dll
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\System.Data.SqlServerCe.dll
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\bin\Debug\Newtonsoft.Json.xml
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.csprojAssemblyReference.cache
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmActivation.resources
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmLogin.resources
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmDasboard.resources
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmHistory.resources
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterLineProd.resources
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterSKU.resources
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterArea.resources
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMasterusers.resources
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmMenu.resources
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmAbout.resources
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmSettings.resources
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.FrmUseSQLServer.resources
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.Properties.Resources.resources
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.csproj.GenerateResource.cache
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.csproj.CoreCompileInputs.cache
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.csproj.CopyComplete
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.exe
+D:\Ruday\Project\OneDrive - SATOHOLDINGS\H\HEINZ ABC\Sato_2Pointcheck 1.0.2\Sato_2Pointcheck\obj\Debug\Sato_2Pointcheck.pdb

@@ -1,0 +1,20 @@
+2021/11/22 10:13:33.407;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Index was out of range. Must be non-negative and less than the size of the collection.[CRLF]Parameter name: index
+2021/11/22 10:14:13.774;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Index was out of range. Must be non-negative and less than the size of the collection.[CRLF]Parameter name: index
+2021/11/22 15:26:46.533;FrmLinkTagRead;fncDataConfirmProcess;System Error;Object reference not set to an instance of an object.
+2021/11/22 15:38:48.416;FrmLinkTagRead;fncDataConfirmProcess;System Error;Object reference not set to an instance of an object.
+2021/11/22 15:45:11.173;FrmLinkTagRead;fncDataConfirmProcess;System Error;Object reference not set to an instance of an object.
+2021/11/22 15:47:05.577;FrmLinkTagRead;fncDataConfirmProcess;System Error;Object reference not set to an instance of an object.
+2021/11/22 15:47:11.776;FrmLinkTagRead;fncDataConfirmProcess;System Error;Object reference not set to an instance of an object.
+2021/11/22 15:47:56.326;FrmLinkTagRead;fncDataConfirmProcess;System Error;Object reference not set to an instance of an object.
+2021/11/22 15:48:23.843;FrmLinkTagRead;fncDataConfirmProcess;System Error;Object reference not set to an instance of an object.
+2021/11/22 15:48:37.465;FrmLinkTagRead;fncDataConfirmProcess;System Error;Object reference not set to an instance of an object.
+2021/11/22 15:49:15.349;FrmLinkTagRead;fncDataConfirmProcess;System Error;Object reference not set to an instance of an object.
+2021/11/22 15:50:14.261;FrmLinkTagRead;fncDataConfirmProcess;System Error;Object reference not set to an instance of an object.
+2021/11/22 15:53:35.984;FrmLinkTagRead;fncDataConfirmProcess;System Error;Object reference not set to an instance of an object.
+2021/11/22 15:53:55.743;FrmLinkTagRead;fncDataConfirmProcess;System Error;Object reference not set to an instance of an object.
+2021/11/22 16:23:03.915;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Index was out of range. Must be non-negative and less than the size of the collection.[CRLF]Parameter name: index
+2021/11/22 16:25:01.000;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Index was out of range. Must be non-negative and less than the size of the collection.[CRLF]Parameter name: index
+2021/11/22 16:34:49.152;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Index was out of range. Must be non-negative and less than the size of the collection.[CRLF]Parameter name: index
+2021/11/22 16:50:33.365;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Index was out of range. Must be non-negative and less than the size of the collection.[CRLF]Parameter name: index
+2021/11/22 16:51:24.351;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Index was out of range. Must be non-negative and less than the size of the collection.[CRLF]Parameter name: index
+2021/11/22 16:51:37.487;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Index was out of range. Must be non-negative and less than the size of the collection.[CRLF]Parameter name: index

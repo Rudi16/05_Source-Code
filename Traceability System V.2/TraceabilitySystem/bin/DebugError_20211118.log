@@ -1,0 +1,39 @@
+2021/11/18 13:51:23.631;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:24.171;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:24.684;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:25.198;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:25.715;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:26.233;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:26.753;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:27.273;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:27.792;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:28.312;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:28.829;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:29.347;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:29.884;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:30.417;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:30.940;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:31.460;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:31.992;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:32.526;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:33.047;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:33.566;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:34.097;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:34.612;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:35.125;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:35.641;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:46.011;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:50.701;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 13:51:52.367;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 14:01:49.315;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 14:05:44.775;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Object reference not set to an instance of an object.
+2021/11/18 14:10:17.067;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Object reference not set to an instance of an object.
+2021/11/18 14:10:43.619;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Object reference not set to an instance of an object.
+2021/11/18 14:10:47.238;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Object reference not set to an instance of an object.
+2021/11/18 14:41:32.216;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Object reference not set to an instance of an object.
+2021/11/18 14:46:21.420;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Index was out of range. Must be non-negative and less than the size of the collection.[CRLF]Parameter name: index
+2021/11/18 14:54:24.717;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Index was out of range. Must be non-negative and less than the size of the collection.[CRLF]Parameter name: index
+2021/11/18 14:58:12.567;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Index was out of range. Must be non-negative and less than the size of the collection.[CRLF]Parameter name: index
+2021/11/18 15:04:19.544;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Index was out of range. Must be non-negative and less than the size of the collection.[CRLF]Parameter name: index
+2021/11/18 15:04:19.567;FrmLinkTagRead;tmrReadRFID_Tick;System Error;Index was out of range. Must be non-negative and less than the size of the collection.[CRLF]Parameter name: index
+2021/11/18 15:07:36.953;FrmLinkTagRead;C_RFIDDenso_ScanedRFID;System Error;Index was out of range. Must be non-negative and less than the size of the collection.[CRLF]Parameter name: index

@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FFB756F7-9690-4488-9DD0-752648BC759A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TraceabilitySystem</RootNamespace>
+    <AssemblyName>TraceabilitySystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.1</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>30823B45E61ABB3DD7D23DA3500B1D44651F6714</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TraceabilitySystem_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper">
+      <HintPath>..\..\..\E\ELASTOMIX\PC\TraceabilitySystem\TraceabilitySystem\bin\Debug\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight">
+      <HintPath>..\..\..\07_Sample\UR21_READ_TAG_DEMO-master\UR21_READ_TAG_DEMO\bin\x64\Debug\GalaSoft.MvvmLight.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Extras">
+      <HintPath>..\..\..\07_Sample\UR21_READ_TAG_DEMO-master\UR21_READ_TAG_DEMO\bin\x64\Debug\GalaSoft.MvvmLight.Extras.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Platform">
+      <HintPath>..\..\..\07_Sample\UR21_READ_TAG_DEMO-master\UR21_READ_TAG_DEMO\bin\x64\Debug\GalaSoft.MvvmLight.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio 9.0\Visual Studio Tools for Office\PIA\Office12\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WaitWnd">
+      <HintPath>..\..\..\E\ELASTOMIX\PC\TraceabilitySystem\TraceabilitySystem\bin\Debug\WaitWnd.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dataacces\DataaccessMenu.cs" />
+    <Compile Include="Dataacces\Dataacces_ReportNG.cs" />
+    <Compile Include="Dataacces\Dataacces_ReportQA6.cs" />
+    <Compile Include="Dataacces\Dataacces_ReportQA5.cs" />
+    <Compile Include="Dataacces\Dataacces_QA6.cs" />
+    <Compile Include="Dataacces\Dataacces_QA5.cs" />
+    <Compile Include="Dataacces\Dataacces_NG.cs" />
+    <Compile Include="Dataacces\Dataacces_CreateRFID.cs" />
+    <Compile Include="Dataacces\Dataacces_Color.cs" />
+    <Compile Include="Dataacces\Dataacces_Model.cs" />
+    <Compile Include="Dataacces\Dataacces_Users.cs" />
+    <Compile Include="DataGridViewMergedTextBoxColumn.cs" />
+    <Compile Include="Entity\History.cs" />
+    <Compile Include="Entity\ListNG.cs" />
+    <Compile Include="Entity\NGList.cs" />
+    <Compile Include="Entity\ngCategory.cs" />
+    <Compile Include="Entity\RegisterTag.cs" />
+    <Compile Include="Entity\Report.cs" />
+    <Compile Include="Entity\ReportQA5.cs" />
+    <Compile Include="Entity\RFIDTag.cs" />
+    <Compile Include="Entity\XColor.cs" />
+    <Compile Include="Entity\Model.cs" />
+    <Compile Include="Entity\Users.cs" />
+    <Compile Include="FrmActivation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmActivation.Designer.cs">
+      <DependentUpon>FrmActivation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmApproved.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmApproved.Designer.cs">
+      <DependentUpon>FrmApproved.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNG.Designer.cs">
+      <DependentUpon>FrmNG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPreviewImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPreviewImage.Designer.cs">
+      <DependentUpon>FrmPreviewImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQA5Transaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQA5Transaction.Designer.cs">
+      <DependentUpon>FrmQA5Transaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQA6Transaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQA6Transaction.Designer.cs">
+      <DependentUpon>FrmQA6Transaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegisterRFID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegisterRFID.Designer.cs">
+      <DependentUpon>FrmRegisterRFID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMasterColor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMasterColor.Designer.cs">
+      <DependentUpon>FrmMasterColor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMasterNG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMasterNG.Designer.cs">
+      <DependentUpon>FrmMasterNG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCreateReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCreateReg.Designer.cs">
+      <DependentUpon>FrmCreateReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCreateRFID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCreateRFID.Designer.cs">
+      <DependentUpon>FrmCreateRFID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQA6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQA6.Designer.cs">
+      <DependentUpon>FrmQA6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQA5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQA5.Designer.cs">
+      <DependentUpon>FrmQA5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMasterModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMasterModel.Designer.cs">
+      <DependentUpon>FrmMasterModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportNG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportNG.Designer.cs">
+      <DependentUpon>FrmReportNG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportQA6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportQA6.Designer.cs">
+      <DependentUpon>FrmReportQA6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportQA5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportQA5.Designer.cs">
+      <DependentUpon>FrmReportQA5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMasterusers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMasterusers.Designer.cs">
+      <DependentUpon>FrmMasterusers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenu.Designer.cs">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAbout.Designer.cs">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUseSQLServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUseSQLServer.designer.cs">
+      <DependentUpon>FrmUseSQLServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\AppSettings.cs" />
+    <Compile Include="Helper\ClsLinkValue.cs" />
+    <Compile Include="Helper\ClsRFIDDenso.cs" />
+    <Compile Include="Helper\clsSV_DB.cs" />
+    <Compile Include="Helper\DBConnections.cs" />
+    <Compile Include="Helper\Encrypt.cs" />
+    <Compile Include="Helper\HexConverter.cs" />
+    <Compile Include="Helper\modSV_LogWrite.cs" />
+    <Compile Include="Helper\myData.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionList\FrmEditModelColorTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactionList\FrmEditModelColorTransaction.Designer.cs">
+      <DependentUpon>FrmEditModelColorTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionList\FrmTrasactionListQA6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactionList\FrmTrasactionListQA6.Designer.cs">
+      <DependentUpon>FrmTrasactionListQA6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionList\FrmTrasactionListQA5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactionList\FrmTrasactionListQA5.Designer.cs">
+      <DependentUpon>FrmTrasactionListQA5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionList\FrmTrasactionListRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactionList\FrmTrasactionListRegister.Designer.cs">
+      <DependentUpon>FrmTrasactionListRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionList\FrmTrasactionListCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactionList\FrmTrasactionListCreate.Designer.cs">
+      <DependentUpon>FrmTrasactionListCreate.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmActivation.resx">
+      <DependentUpon>FrmActivation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmApproved.resx">
+      <DependentUpon>FrmApproved.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNG.resx">
+      <DependentUpon>FrmNG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPreviewImage.resx">
+      <DependentUpon>FrmPreviewImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQA5Transaction.resx">
+      <DependentUpon>FrmQA5Transaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQA6Transaction.resx">
+      <DependentUpon>FrmQA6Transaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegisterRFID.resx">
+      <DependentUpon>FrmRegisterRFID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMasterColor.resx">
+      <DependentUpon>FrmMasterColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMasterNG.resx">
+      <DependentUpon>FrmMasterNG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCreateReg.resx">
+      <DependentUpon>FrmCreateReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCreateRFID.resx">
+      <DependentUpon>FrmCreateRFID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQA6.resx">
+      <DependentUpon>FrmQA6.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FrmQA61.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQA5.resx">
+      <DependentUpon>FrmQA5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMasterModel.resx">
+      <DependentUpon>FrmMasterModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportNG.resx">
+      <DependentUpon>FrmReportNG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportQA6.resx">
+      <DependentUpon>FrmReportQA6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportQA5.resx">
+      <DependentUpon>FrmReportQA5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMasterusers.resx">
+      <DependentUpon>FrmMasterusers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenu.resx">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAbout.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUseSQLServer.resx">
+      <DependentUpon>FrmUseSQLServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactionList\FrmEditModelColorTransaction.resx">
+      <DependentUpon>FrmEditModelColorTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactionList\FrmTrasactionListQA6.resx">
+      <DependentUpon>FrmTrasactionListQA6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactionList\FrmTrasactionListQA5.resx">
+      <DependentUpon>FrmTrasactionListQA5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactionList\FrmTrasactionListRegister.resx">
+      <DependentUpon>FrmTrasactionListRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactionList\FrmTrasactionListCreate.resx">
+      <DependentUpon>FrmTrasactionListCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Debug\Config\Database.dat" />
+    <None Include="bin\Debug\Config\MasterLocation.dat" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TraceabilitySystem_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SatoLogo-01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userlogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UploadtoHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statusPCHTconnected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Asset\icon\statusPCHTdisconnect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Asset\image\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Asset\image\ico_setting kebalik.png" />
+    <Content Include="bin\Debug\Asset\image\ico_setting.png" />
+    <Content Include="bin\Debug\Asset\image\Logo.png" />
+    <Content Include="bin\Debug\Asset\image\NGArea.png" />
+    <Content Include="bin\Debug\Asset\image\NGArea_Lama.png" />
+    <Content Include="bin\Debug\Asset\image\Setting.png" />
+    <Content Include="bin\Debug\Asset\image\Setting2.png" />
+    <Content Include="ico.ico" />
+    <Content Include="OpenNETCF.Desktop.Communication.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RfidTs.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Logo1.png" />
+    <None Include="Resources\Setting2.png" />
+    <None Include="Resources\Setting.png" />
+    <None Include="Resources\Logo.png" />
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
