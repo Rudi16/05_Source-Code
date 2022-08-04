@@ -8,9 +8,13 @@ namespace TraceabilitySystem.Entity
 {
     public class Model
     {
-        public int Id_Model{set;get;}
-        public string Model_Name { get; set; }
-        public string Description  {get;set;}
+        public int id_model{set;get;}
+        public string gmccode { get; set; }
+        public string model  {get;set;}
+        public string color { get; set; }
+        public string ean { get; set; }
+        public string upc { get; set; }
+
     }
 
 }

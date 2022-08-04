@@ -121,7 +121,7 @@ namespace TraceabilitySystem
             timer_dropdown.Start();
             timer_History.Start();
             timer_masterlabel.Start();
-
+            btnMasterColor.Visible = false;
            
             user_id.Text = "User ID : " + DBConnections.UserID;
             txtuser_name.Text = "Name : " + dataaccesmenu.get_nameUser(DBConnections.UserID);
@@ -504,8 +504,6 @@ namespace TraceabilitySystem
                 fs.Show();
             }
         }
-
-
         //public void button1_Click(object sender, EventArgs e)
         //{
         //    FrmMasterPointCheck fs = new FrmMasterPointCheck();

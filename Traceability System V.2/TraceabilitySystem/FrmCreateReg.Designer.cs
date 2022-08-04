@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCreateReg));
             this.PanelUtama = new System.Windows.Forms.Panel();
             this.panel20 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -52,8 +51,9 @@
             this.PanelUtama.Controls.Add(this.panel1);
             this.PanelUtama.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelUtama.Location = new System.Drawing.Point(0, 0);
+            this.PanelUtama.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PanelUtama.Name = "PanelUtama";
-            this.PanelUtama.Size = new System.Drawing.Size(1289, 1051);
+            this.PanelUtama.Size = new System.Drawing.Size(966, 567);
             this.PanelUtama.TabIndex = 0;
             // 
             // panel20
@@ -61,10 +61,9 @@
             this.panel20.Controls.Add(this.pictureBox1);
             this.panel20.Controls.Add(this.pict_logout);
             this.panel20.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel20.Location = new System.Drawing.Point(1198, 0);
-            this.panel20.Margin = new System.Windows.Forms.Padding(4);
+            this.panel20.Location = new System.Drawing.Point(898, 0);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(91, 1051);
+            this.panel20.Size = new System.Drawing.Size(68, 567);
             this.panel20.TabIndex = 3;
             // 
             // panel1
@@ -72,9 +71,10 @@
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.Controls.Add(this.btnRegisterProduct);
             this.panel1.Controls.Add(this.btnCreateLabelRFID);
-            this.panel1.Location = new System.Drawing.Point(108, 442);
+            this.panel1.Location = new System.Drawing.Point(81, 215);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1042, 252);
+            this.panel1.Size = new System.Drawing.Size(782, 205);
             this.panel1.TabIndex = 1;
             // 
             // btnRegisterProduct
@@ -86,9 +86,10 @@
             this.btnRegisterProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegisterProduct.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegisterProduct.ForeColor = System.Drawing.Color.White;
-            this.btnRegisterProduct.Location = new System.Drawing.Point(561, 61);
+            this.btnRegisterProduct.Location = new System.Drawing.Point(421, 50);
+            this.btnRegisterProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRegisterProduct.Name = "btnRegisterProduct";
-            this.btnRegisterProduct.Size = new System.Drawing.Size(331, 116);
+            this.btnRegisterProduct.Size = new System.Drawing.Size(248, 94);
             this.btnRegisterProduct.TabIndex = 1;
             this.btnRegisterProduct.Text = "Register Product";
             this.btnRegisterProduct.UseVisualStyleBackColor = false;
@@ -103,9 +104,10 @@
             this.btnCreateLabelRFID.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCreateLabelRFID.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCreateLabelRFID.ForeColor = System.Drawing.Color.White;
-            this.btnCreateLabelRFID.Location = new System.Drawing.Point(149, 61);
+            this.btnCreateLabelRFID.Location = new System.Drawing.Point(112, 50);
+            this.btnCreateLabelRFID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCreateLabelRFID.Name = "btnCreateLabelRFID";
-            this.btnCreateLabelRFID.Size = new System.Drawing.Size(331, 116);
+            this.btnCreateLabelRFID.Size = new System.Drawing.Size(248, 94);
             this.btnCreateLabelRFID.TabIndex = 0;
             this.btnCreateLabelRFID.Text = "Create Label RFID";
             this.btnCreateLabelRFID.UseVisualStyleBackColor = false;
@@ -117,17 +119,17 @@
             this.panel5.Controls.Add(this.PanelUtama);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1293, 1055);
+            this.panel5.Size = new System.Drawing.Size(970, 571);
             this.panel5.TabIndex = 3;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(7, 9);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Image = global::TraceabilitySystem.Properties.Resources.pictureBox1_Image;
+            this.pictureBox1.Location = new System.Drawing.Point(5, 7);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(33, 36);
+            this.pictureBox1.Size = new System.Drawing.Size(25, 29);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -135,11 +137,10 @@
             // 
             // pict_logout
             // 
-            this.pict_logout.Image = ((System.Drawing.Image)(resources.GetObject("pict_logout.Image")));
-            this.pict_logout.Location = new System.Drawing.Point(47, 10);
-            this.pict_logout.Margin = new System.Windows.Forms.Padding(4);
+            this.pict_logout.Image = global::TraceabilitySystem.Properties.Resources.log_out2;
+            this.pict_logout.Location = new System.Drawing.Point(35, 8);
             this.pict_logout.Name = "pict_logout";
-            this.pict_logout.Size = new System.Drawing.Size(35, 33);
+            this.pict_logout.Size = new System.Drawing.Size(26, 27);
             this.pict_logout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pict_logout.TabIndex = 1;
             this.pict_logout.TabStop = false;
@@ -147,15 +148,14 @@
             // 
             // FrmCreateReg
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1293, 1055);
+            this.ClientSize = new System.Drawing.Size(970, 571);
             this.ControlBox = false;
             this.Controls.Add(this.panel5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmCreateReg";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register Product";

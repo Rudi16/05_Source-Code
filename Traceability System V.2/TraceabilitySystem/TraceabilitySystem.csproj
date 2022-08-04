@@ -457,6 +457,8 @@
     <Content Include="OpenNETCF.Desktop.Communication.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\log_out2.jpg" />
+    <None Include="Resources\pictureBox1.Image.png" />
     <Content Include="RfidTs.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

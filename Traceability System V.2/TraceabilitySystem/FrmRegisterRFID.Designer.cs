@@ -40,6 +40,22 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblgmccode = new System.Windows.Forms.Label();
+            this.lblserial = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.txtUPC = new System.Windows.Forms.TextBox();
+            this.txtEAN = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txtColor = new System.Windows.Forms.TextBox();
+            this.txtModel = new System.Windows.Forms.TextBox();
+            this.txtGCMCode = new System.Windows.Forms.TextBox();
+            this.txtSerialNumber = new System.Windows.Forms.TextBox();
             this.txtMessage = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -80,9 +96,9 @@
             this.panel5.Controls.Add(this.panelRegister);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1040, 640);
+            this.panel5.Size = new System.Drawing.Size(1300, 700);
             this.panel5.TabIndex = 3;
             // 
             // panelRegister
@@ -93,9 +109,9 @@
             this.panelRegister.Controls.Add(this.panel1);
             this.panelRegister.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelRegister.Location = new System.Drawing.Point(0, 0);
-            this.panelRegister.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelRegister.Margin = new System.Windows.Forms.Padding(2);
             this.panelRegister.Name = "panelRegister";
-            this.panelRegister.Size = new System.Drawing.Size(1036, 636);
+            this.panelRegister.Size = new System.Drawing.Size(1296, 696);
             this.panelRegister.TabIndex = 4;
             // 
             // panel2
@@ -104,9 +120,9 @@
             this.panel2.Controls.Add(this.button5);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 40);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1034, 44);
+            this.panel2.Size = new System.Drawing.Size(1294, 44);
             this.panel2.TabIndex = 32;
             // 
             // button5
@@ -119,8 +135,8 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(846, 5);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Location = new System.Drawing.Point(1106, 5);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(182, 35);
             this.button5.TabIndex = 2;
@@ -137,9 +153,9 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.ForeColor = System.Drawing.Color.White;
             this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1034, 40);
+            this.panel7.Size = new System.Drawing.Size(1294, 40);
             this.panel7.TabIndex = 1;
             // 
             // pictureBox1
@@ -147,7 +163,7 @@
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1002, 6);
+            this.pictureBox1.Location = new System.Drawing.Point(1262, 6);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(25, 29);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -172,7 +188,7 @@
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(347, 5);
+            this.label6.Location = new System.Drawing.Point(477, 5);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(206, 29);
@@ -183,6 +199,22 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Azure;
+            this.panel1.Controls.Add(this.lblgmccode);
+            this.panel1.Controls.Add(this.lblserial);
+            this.panel1.Controls.Add(this.label18);
+            this.panel1.Controls.Add(this.label19);
+            this.panel1.Controls.Add(this.label20);
+            this.panel1.Controls.Add(this.label21);
+            this.panel1.Controls.Add(this.txtUPC);
+            this.panel1.Controls.Add(this.txtEAN);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label17);
+            this.panel1.Controls.Add(this.txtColor);
+            this.panel1.Controls.Add(this.txtModel);
+            this.panel1.Controls.Add(this.txtGCMCode);
+            this.panel1.Controls.Add(this.txtSerialNumber);
             this.panel1.Controls.Add(this.txtMessage);
             this.panel1.Controls.Add(this.label16);
             this.panel1.Controls.Add(this.label15);
@@ -205,10 +237,198 @@
             this.panel1.Controls.Add(this.cbModel);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1034, 634);
+            this.panel1.Size = new System.Drawing.Size(1294, 694);
             this.panel1.TabIndex = 31;
+            // 
+            // lblgmccode
+            // 
+            this.lblgmccode.AutoSize = true;
+            this.lblgmccode.BackColor = System.Drawing.Color.Red;
+            this.lblgmccode.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblgmccode.ForeColor = System.Drawing.Color.White;
+            this.lblgmccode.Location = new System.Drawing.Point(456, 261);
+            this.lblgmccode.Name = "lblgmccode";
+            this.lblgmccode.Size = new System.Drawing.Size(82, 20);
+            this.lblgmccode.TabIndex = 47;
+            this.lblgmccode.Text = "lblgmccode";
+            // 
+            // lblserial
+            // 
+            this.lblserial.AutoSize = true;
+            this.lblserial.BackColor = System.Drawing.Color.Red;
+            this.lblserial.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblserial.ForeColor = System.Drawing.Color.White;
+            this.lblserial.Location = new System.Drawing.Point(456, 219);
+            this.lblserial.Name = "lblserial";
+            this.lblserial.Size = new System.Drawing.Size(59, 20);
+            this.lblserial.TabIndex = 46;
+            this.lblserial.Text = "lblserial";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label18.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(203, 262);
+            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(12, 18);
+            this.label18.TabIndex = 45;
+            this.label18.Text = ":";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label19.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(203, 219);
+            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(12, 18);
+            this.label19.TabIndex = 44;
+            this.label19.Text = ":";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label20.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(82, 219);
+            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(108, 18);
+            this.label20.TabIndex = 42;
+            this.label20.Text = "Serial Number";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label21.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(82, 262);
+            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(88, 18);
+            this.label21.TabIndex = 43;
+            this.label21.Text = "GMC Code";
+            // 
+            // txtUPC
+            // 
+            this.txtUPC.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUPC.Location = new System.Drawing.Point(219, 430);
+            this.txtUPC.Margin = new System.Windows.Forms.Padding(2);
+            this.txtUPC.Name = "txtUPC";
+            this.txtUPC.ReadOnly = true;
+            this.txtUPC.Size = new System.Drawing.Size(232, 26);
+            this.txtUPC.TabIndex = 41;
+            this.txtUPC.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtEAN
+            // 
+            this.txtEAN.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEAN.Location = new System.Drawing.Point(219, 386);
+            this.txtEAN.Margin = new System.Windows.Forms.Padding(2);
+            this.txtEAN.Name = "txtEAN";
+            this.txtEAN.ReadOnly = true;
+            this.txtEAN.Size = new System.Drawing.Size(232, 26);
+            this.txtEAN.TabIndex = 40;
+            this.txtEAN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(203, 433);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(12, 18);
+            this.label1.TabIndex = 39;
+            this.label1.Text = ":";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(203, 389);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(12, 18);
+            this.label3.TabIndex = 38;
+            this.label3.Text = ":";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(82, 389);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(41, 18);
+            this.label5.TabIndex = 36;
+            this.label5.Text = "EAN";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label17.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(82, 433);
+            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(42, 18);
+            this.label17.TabIndex = 37;
+            this.label17.Text = "UPC";
+            // 
+            // txtColor
+            // 
+            this.txtColor.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtColor.Location = new System.Drawing.Point(219, 344);
+            this.txtColor.Margin = new System.Windows.Forms.Padding(2);
+            this.txtColor.Name = "txtColor";
+            this.txtColor.ReadOnly = true;
+            this.txtColor.Size = new System.Drawing.Size(232, 26);
+            this.txtColor.TabIndex = 35;
+            this.txtColor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtModel
+            // 
+            this.txtModel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtModel.Location = new System.Drawing.Point(219, 300);
+            this.txtModel.Margin = new System.Windows.Forms.Padding(2);
+            this.txtModel.Name = "txtModel";
+            this.txtModel.ReadOnly = true;
+            this.txtModel.Size = new System.Drawing.Size(232, 26);
+            this.txtModel.TabIndex = 34;
+            this.txtModel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtGCMCode
+            // 
+            this.txtGCMCode.BackColor = System.Drawing.Color.White;
+            this.txtGCMCode.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGCMCode.Location = new System.Drawing.Point(219, 258);
+            this.txtGCMCode.Margin = new System.Windows.Forms.Padding(2);
+            this.txtGCMCode.Name = "txtGCMCode";
+            this.txtGCMCode.Size = new System.Drawing.Size(232, 26);
+            this.txtGCMCode.TabIndex = 33;
+            this.txtGCMCode.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtGCMCode.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtGCMCode_KeyPress);
+            // 
+            // txtSerialNumber
+            // 
+            this.txtSerialNumber.BackColor = System.Drawing.Color.White;
+            this.txtSerialNumber.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSerialNumber.Location = new System.Drawing.Point(219, 216);
+            this.txtSerialNumber.Margin = new System.Windows.Forms.Padding(2);
+            this.txtSerialNumber.Name = "txtSerialNumber";
+            this.txtSerialNumber.Size = new System.Drawing.Size(232, 26);
+            this.txtSerialNumber.TabIndex = 32;
+            this.txtSerialNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSerialNumber.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSerialNumber_KeyPress);
             // 
             // txtMessage
             // 
@@ -216,10 +436,10 @@
             this.txtMessage.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.txtMessage.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMessage.ForeColor = System.Drawing.Color.Black;
-            this.txtMessage.Location = new System.Drawing.Point(0, 596);
-            this.txtMessage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMessage.Location = new System.Drawing.Point(0, 656);
+            this.txtMessage.Margin = new System.Windows.Forms.Padding(2);
             this.txtMessage.Name = "txtMessage";
-            this.txtMessage.Size = new System.Drawing.Size(1034, 38);
+            this.txtMessage.Size = new System.Drawing.Size(1294, 38);
             this.txtMessage.TabIndex = 31;
             this.txtMessage.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -228,7 +448,7 @@
             this.label16.AutoSize = true;
             this.label16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label16.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(710, 328);
+            this.label16.Location = new System.Drawing.Point(941, 217);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(20, 29);
@@ -240,7 +460,7 @@
             this.label15.AutoSize = true;
             this.label15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label15.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(710, 282);
+            this.label15.Location = new System.Drawing.Point(941, 171);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(20, 29);
@@ -252,7 +472,7 @@
             this.label14.AutoSize = true;
             this.label14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label14.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(189, 383);
+            this.label14.Location = new System.Drawing.Point(203, 347);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(12, 18);
@@ -264,7 +484,7 @@
             this.label13.AutoSize = true;
             this.label13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(191, 335);
+            this.label13.Location = new System.Drawing.Point(203, 303);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(12, 18);
@@ -274,8 +494,8 @@
             // txtUnique
             // 
             this.txtUnique.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUnique.Location = new System.Drawing.Point(207, 231);
-            this.txtUnique.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUnique.Location = new System.Drawing.Point(219, 130);
+            this.txtUnique.Margin = new System.Windows.Forms.Padding(2);
             this.txtUnique.Name = "txtUnique";
             this.txtUnique.ReadOnly = true;
             this.txtUnique.Size = new System.Drawing.Size(232, 26);
@@ -287,7 +507,7 @@
             this.label12.AutoSize = true;
             this.label12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(191, 232);
+            this.label12.Location = new System.Drawing.Point(203, 131);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(12, 18);
@@ -299,7 +519,7 @@
             this.label4.AutoSize = true;
             this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(32, 232);
+            this.label4.Location = new System.Drawing.Point(82, 131);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(72, 18);
@@ -311,7 +531,7 @@
             this.label11.AutoSize = true;
             this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label11.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(191, 285);
+            this.label11.Location = new System.Drawing.Point(203, 174);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(12, 18);
@@ -323,7 +543,7 @@
             this.label2.AutoSize = true;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(32, 285);
+            this.label2.Location = new System.Drawing.Point(82, 174);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 18);
@@ -335,7 +555,7 @@
             this.label10.AutoSize = true;
             this.label10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label10.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(475, 330);
+            this.label10.Location = new System.Drawing.Point(706, 219);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(62, 29);
@@ -347,8 +567,8 @@
             this.txtRFIDSerial.BackColor = System.Drawing.Color.Yellow;
             this.txtRFIDSerial.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRFIDSerial.ForeColor = System.Drawing.Color.Black;
-            this.txtRFIDSerial.Location = new System.Drawing.Point(733, 282);
-            this.txtRFIDSerial.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtRFIDSerial.Location = new System.Drawing.Point(964, 171);
+            this.txtRFIDSerial.Margin = new System.Windows.Forms.Padding(2);
             this.txtRFIDSerial.Name = "txtRFIDSerial";
             this.txtRFIDSerial.ReadOnly = true;
             this.txtRFIDSerial.Size = new System.Drawing.Size(290, 35);
@@ -360,7 +580,7 @@
             this.label9.AutoSize = true;
             this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label9.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(475, 282);
+            this.label9.Location = new System.Drawing.Point(706, 171);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(238, 29);
@@ -372,8 +592,8 @@
             this.txtEPC.BackColor = System.Drawing.Color.Yellow;
             this.txtEPC.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEPC.ForeColor = System.Drawing.Color.Black;
-            this.txtEPC.Location = new System.Drawing.Point(733, 327);
-            this.txtEPC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtEPC.Location = new System.Drawing.Point(964, 216);
+            this.txtEPC.Margin = new System.Windows.Forms.Padding(2);
             this.txtEPC.Name = "txtEPC";
             this.txtEPC.Size = new System.Drawing.Size(290, 35);
             this.txtEPC.TabIndex = 16;
@@ -388,8 +608,8 @@
             this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegister.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegister.ForeColor = System.Drawing.Color.White;
-            this.btnRegister.Location = new System.Drawing.Point(204, 444);
-            this.btnRegister.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRegister.Location = new System.Drawing.Point(219, 478);
+            this.btnRegister.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(182, 75);
             this.btnRegister.TabIndex = 22;
@@ -402,8 +622,8 @@
             this.dtDate.CustomFormat = "dd/MM/yyyy";
             this.dtDate.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtDate.Location = new System.Drawing.Point(207, 283);
-            this.dtDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtDate.Location = new System.Drawing.Point(219, 172);
+            this.dtDate.Margin = new System.Windows.Forms.Padding(2);
             this.dtDate.Name = "dtDate";
             this.dtDate.Size = new System.Drawing.Size(232, 26);
             this.dtDate.TabIndex = 17;
@@ -415,18 +635,19 @@
             this.cbColor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbColor.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbColor.FormattingEnabled = true;
-            this.cbColor.Location = new System.Drawing.Point(204, 379);
-            this.cbColor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbColor.Location = new System.Drawing.Point(945, 429);
+            this.cbColor.Margin = new System.Windows.Forms.Padding(2);
             this.cbColor.Name = "cbColor";
             this.cbColor.Size = new System.Drawing.Size(234, 26);
             this.cbColor.TabIndex = 21;
+            this.cbColor.Visible = false;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(32, 335);
+            this.label7.Location = new System.Drawing.Point(82, 303);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(51, 18);
@@ -438,7 +659,7 @@
             this.label8.AutoSize = true;
             this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(32, 383);
+            this.label8.Location = new System.Drawing.Point(82, 347);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(46, 18);
@@ -451,11 +672,12 @@
             this.cbModel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbModel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbModel.FormattingEnabled = true;
-            this.cbModel.Location = new System.Drawing.Point(204, 332);
-            this.cbModel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbModel.Location = new System.Drawing.Point(945, 386);
+            this.cbModel.Margin = new System.Windows.Forms.Padding(2);
             this.cbModel.Name = "cbModel";
             this.cbModel.Size = new System.Drawing.Size(234, 26);
             this.cbModel.TabIndex = 19;
+            this.cbModel.Visible = false;
             // 
             // FrmRegisterRFID
             // 
@@ -463,7 +685,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1040, 640);
+            this.ClientSize = new System.Drawing.Size(1300, 700);
             this.Controls.Add(this.panel5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmRegisterRFID";
@@ -514,5 +736,21 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtMessage;
+        private System.Windows.Forms.TextBox txtModel;
+        private System.Windows.Forms.TextBox txtGCMCode;
+        private System.Windows.Forms.TextBox txtSerialNumber;
+        private System.Windows.Forms.TextBox txtUPC;
+        private System.Windows.Forms.TextBox txtEAN;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox txtColor;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label lblserial;
+        private System.Windows.Forms.Label lblgmccode;
     }
 }

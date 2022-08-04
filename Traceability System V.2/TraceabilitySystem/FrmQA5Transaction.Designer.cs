@@ -29,8 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmQA5Transaction));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.PanelUtama = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.BtnConfirmn = new System.Windows.Forms.Button();
@@ -106,9 +105,9 @@
             this.PanelUtama.Controls.Add(this.panel7);
             this.PanelUtama.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelUtama.Location = new System.Drawing.Point(0, 0);
-            this.PanelUtama.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PanelUtama.Margin = new System.Windows.Forms.Padding(2);
             this.PanelUtama.Name = "PanelUtama";
-            this.PanelUtama.Size = new System.Drawing.Size(1186, 707);
+            this.PanelUtama.Size = new System.Drawing.Size(1176, 698);
             this.PanelUtama.TabIndex = 0;
             // 
             // panel2
@@ -130,7 +129,7 @@
             this.BtnConfirmn.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnConfirmn.ForeColor = System.Drawing.Color.White;
             this.BtnConfirmn.Location = new System.Drawing.Point(175, 12);
-            this.BtnConfirmn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnConfirmn.Margin = new System.Windows.Forms.Padding(2);
             this.BtnConfirmn.Name = "BtnConfirmn";
             this.BtnConfirmn.Size = new System.Drawing.Size(344, 58);
             this.BtnConfirmn.TabIndex = 39;
@@ -145,10 +144,10 @@
             this.txtMessage.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.txtMessage.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMessage.ForeColor = System.Drawing.Color.Black;
-            this.txtMessage.Location = new System.Drawing.Point(0, 667);
-            this.txtMessage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMessage.Location = new System.Drawing.Point(0, 658);
+            this.txtMessage.Margin = new System.Windows.Forms.Padding(2);
             this.txtMessage.Name = "txtMessage";
-            this.txtMessage.Size = new System.Drawing.Size(1184, 38);
+            this.txtMessage.Size = new System.Drawing.Size(1174, 38);
             this.txtMessage.TabIndex = 55;
             this.txtMessage.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -185,21 +184,21 @@
             // DgvNGList
             // 
             this.DgvNGList.BackgroundColor = System.Drawing.Color.Azure;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgvNGList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvNGList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.DgvNGList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvNGList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.No,
             this.NGType,
             this.ProcessDest});
             this.DgvNGList.Location = new System.Drawing.Point(280, 21);
-            this.DgvNGList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DgvNGList.Margin = new System.Windows.Forms.Padding(2);
             this.DgvNGList.Name = "DgvNGList";
             this.DgvNGList.RowHeadersVisible = false;
             this.DgvNGList.RowHeadersWidth = 51;
@@ -238,7 +237,7 @@
             this.btnAddToNG.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddToNG.ForeColor = System.Drawing.Color.White;
             this.btnAddToNG.Location = new System.Drawing.Point(9, 128);
-            this.btnAddToNG.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAddToNG.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddToNG.Name = "btnAddToNG";
             this.btnAddToNG.Size = new System.Drawing.Size(212, 46);
             this.btnAddToNG.TabIndex = 50;
@@ -256,7 +255,7 @@
             this.btnDeleteNG.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteNG.ForeColor = System.Drawing.Color.White;
             this.btnDeleteNG.Location = new System.Drawing.Point(528, 178);
-            this.btnDeleteNG.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDeleteNG.Margin = new System.Windows.Forms.Padding(2);
             this.btnDeleteNG.Name = "btnDeleteNG";
             this.btnDeleteNG.Size = new System.Drawing.Size(146, 41);
             this.btnDeleteNG.TabIndex = 40;
@@ -295,7 +294,7 @@
             this.cbProcessDest.Font = new System.Drawing.Font("Arial", 12F);
             this.cbProcessDest.FormattingEnabled = true;
             this.cbProcessDest.Location = new System.Drawing.Point(9, 93);
-            this.cbProcessDest.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbProcessDest.Margin = new System.Windows.Forms.Padding(2);
             this.cbProcessDest.Name = "cbProcessDest";
             this.cbProcessDest.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cbProcessDest.Size = new System.Drawing.Size(212, 26);
@@ -311,7 +310,7 @@
             this.btnshowNGtype.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnshowNGtype.ForeColor = System.Drawing.Color.White;
             this.btnshowNGtype.Location = new System.Drawing.Point(226, 38);
-            this.btnshowNGtype.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnshowNGtype.Margin = new System.Windows.Forms.Padding(2);
             this.btnshowNGtype.Name = "btnshowNGtype";
             this.btnshowNGtype.Size = new System.Drawing.Size(32, 24);
             this.btnshowNGtype.TabIndex = 45;
@@ -324,7 +323,7 @@
             this.txtNGType.BackColor = System.Drawing.Color.LightGray;
             this.txtNGType.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNGType.Location = new System.Drawing.Point(9, 38);
-            this.txtNGType.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNGType.Margin = new System.Windows.Forms.Padding(2);
             this.txtNGType.Name = "txtNGType";
             this.txtNGType.ReadOnly = true;
             this.txtNGType.Size = new System.Drawing.Size(212, 26);
@@ -336,7 +335,7 @@
             this.txtStartTime.BackColor = System.Drawing.Color.LightGray;
             this.txtStartTime.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtStartTime.Location = new System.Drawing.Point(588, 169);
-            this.txtStartTime.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtStartTime.Margin = new System.Windows.Forms.Padding(2);
             this.txtStartTime.Name = "txtStartTime";
             this.txtStartTime.ReadOnly = true;
             this.txtStartTime.Size = new System.Drawing.Size(213, 26);
@@ -365,7 +364,7 @@
             this.btnDispose.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDispose.ForeColor = System.Drawing.Color.Black;
             this.btnDispose.Location = new System.Drawing.Point(130, 459);
-            this.btnDispose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDispose.Margin = new System.Windows.Forms.Padding(2);
             this.btnDispose.Name = "btnDispose";
             this.btnDispose.Size = new System.Drawing.Size(190, 80);
             this.btnDispose.TabIndex = 43;
@@ -383,7 +382,7 @@
             this.btnNG.Font = new System.Drawing.Font("Arial", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNG.ForeColor = System.Drawing.Color.White;
             this.btnNG.Location = new System.Drawing.Point(247, 349);
-            this.btnNG.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNG.Margin = new System.Windows.Forms.Padding(2);
             this.btnNG.Name = "btnNG";
             this.btnNG.Size = new System.Drawing.Size(132, 96);
             this.btnNG.TabIndex = 42;
@@ -401,7 +400,7 @@
             this.btnOK.Font = new System.Drawing.Font("Arial", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOK.ForeColor = System.Drawing.Color.White;
             this.btnOK.Location = new System.Drawing.Point(72, 349);
-            this.btnOK.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOK.Margin = new System.Windows.Forms.Padding(2);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(136, 96);
             this.btnOK.TabIndex = 41;
@@ -414,7 +413,7 @@
             this.txttimeNow.BackColor = System.Drawing.Color.LightGray;
             this.txttimeNow.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txttimeNow.Location = new System.Drawing.Point(587, 216);
-            this.txttimeNow.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txttimeNow.Margin = new System.Windows.Forms.Padding(2);
             this.txttimeNow.Name = "txttimeNow";
             this.txttimeNow.ReadOnly = true;
             this.txttimeNow.Size = new System.Drawing.Size(213, 26);
@@ -438,7 +437,7 @@
             this.txtOperatorName.BackColor = System.Drawing.Color.LightGray;
             this.txtOperatorName.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtOperatorName.Location = new System.Drawing.Point(588, 120);
-            this.txtOperatorName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtOperatorName.Margin = new System.Windows.Forms.Padding(2);
             this.txtOperatorName.Name = "txtOperatorName";
             this.txtOperatorName.ReadOnly = true;
             this.txtOperatorName.Size = new System.Drawing.Size(213, 26);
@@ -465,7 +464,7 @@
             this.textBox5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.ForeColor = System.Drawing.Color.Black;
             this.textBox5.Location = new System.Drawing.Point(466, 72);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(335, 19);
@@ -489,7 +488,7 @@
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Location = new System.Drawing.Point(25, 52);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(424, 269);
             this.panel1.TabIndex = 0;
@@ -504,7 +503,7 @@
             this.btnUpdate.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
             this.btnUpdate.Location = new System.Drawing.Point(31, 214);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(131, 41);
             this.btnUpdate.TabIndex = 42;
@@ -523,7 +522,7 @@
             this.btnChangeModel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChangeModel.ForeColor = System.Drawing.Color.Black;
             this.btnChangeModel.Location = new System.Drawing.Point(181, 214);
-            this.btnChangeModel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChangeModel.Margin = new System.Windows.Forms.Padding(2);
             this.btnChangeModel.Name = "btnChangeModel";
             this.btnChangeModel.Size = new System.Drawing.Size(214, 41);
             this.btnChangeModel.TabIndex = 41;
@@ -537,7 +536,7 @@
             this.txtColor.Enabled = false;
             this.txtColor.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtColor.Location = new System.Drawing.Point(181, 169);
-            this.txtColor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtColor.Margin = new System.Windows.Forms.Padding(2);
             this.txtColor.Name = "txtColor";
             this.txtColor.Size = new System.Drawing.Size(214, 25);
             this.txtColor.TabIndex = 30;
@@ -549,7 +548,7 @@
             this.txtModelName.Enabled = false;
             this.txtModelName.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtModelName.Location = new System.Drawing.Point(181, 128);
-            this.txtModelName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtModelName.Margin = new System.Windows.Forms.Padding(2);
             this.txtModelName.Name = "txtModelName";
             this.txtModelName.Size = new System.Drawing.Size(214, 25);
             this.txtModelName.TabIndex = 29;
@@ -561,7 +560,7 @@
             this.txtEPC.Enabled = false;
             this.txtEPC.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEPC.Location = new System.Drawing.Point(181, 89);
-            this.txtEPC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtEPC.Margin = new System.Windows.Forms.Padding(2);
             this.txtEPC.Name = "txtEPC";
             this.txtEPC.Size = new System.Drawing.Size(214, 25);
             this.txtEPC.TabIndex = 28;
@@ -573,7 +572,7 @@
             this.txtserialRFID.Enabled = false;
             this.txtserialRFID.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtserialRFID.Location = new System.Drawing.Point(181, 52);
-            this.txtserialRFID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtserialRFID.Margin = new System.Windows.Forms.Padding(2);
             this.txtserialRFID.Name = "txtserialRFID";
             this.txtserialRFID.Size = new System.Drawing.Size(214, 25);
             this.txtserialRFID.TabIndex = 27;
@@ -585,7 +584,7 @@
             this.txtUnique.Enabled = false;
             this.txtUnique.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUnique.Location = new System.Drawing.Point(181, 16);
-            this.txtUnique.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUnique.Margin = new System.Windows.Forms.Padding(2);
             this.txtUnique.Name = "txtUnique";
             this.txtUnique.Size = new System.Drawing.Size(214, 25);
             this.txtUnique.TabIndex = 26;
@@ -659,15 +658,14 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.ForeColor = System.Drawing.Color.White;
             this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1184, 40);
+            this.panel7.Size = new System.Drawing.Size(1174, 40);
             this.panel7.TabIndex = 2;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.ErrorImage")));
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.ErrorImage = null;
             this.pictureBox3.Location = new System.Drawing.Point(8, 6);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(30, 29);
@@ -681,7 +679,7 @@
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(535, 4);
+            this.label6.Location = new System.Drawing.Point(530, 4);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(203, 29);
@@ -700,7 +698,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(1186, 707);
+            this.ClientSize = new System.Drawing.Size(1176, 698);
             this.Controls.Add(this.PanelUtama);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmQA5Transaction";

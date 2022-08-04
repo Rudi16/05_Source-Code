@@ -248,7 +248,7 @@ namespace TraceabilitySystem
         {
             try
             {
-               
+                Application.DoEvents();
                 bTrue = true;
                 uint iReturn;
                 uint iReadCount;

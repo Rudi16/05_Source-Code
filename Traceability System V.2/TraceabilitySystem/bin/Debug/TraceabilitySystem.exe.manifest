@@ -4,7 +4,7 @@
   <description asmv2:iconFile="ico.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="TraceabilitySystem" version="1.0.4.0" language="neutral" processorArchitecture="amd64" />
+    <assemblyIdentity name="TraceabilitySystem" version="2.0.0.0" language="neutral" processorArchitecture="amd64" />
     <commandLine file="TraceabilitySystem.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -115,14 +115,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TraceabilitySystem.exe" size="734720">
-      <assemblyIdentity name="TraceabilitySystem" version="1.0.4.0" language="neutral" processorArchitecture="amd64" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TraceabilitySystem.exe" size="763392">
+      <assemblyIdentity name="TraceabilitySystem" version="2.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1/4d/+zfQIZmZRwq3wFN+WCqQ9SIpgUiUAr3Lm5XGuk=</dsig:DigestValue>
+        <dsig:DigestValue>RdlQQ0X/HDONLVWtUGrDudK5ZyYypmE9Ieyd2l5IiNI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

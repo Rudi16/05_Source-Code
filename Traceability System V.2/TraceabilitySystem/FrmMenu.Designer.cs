@@ -50,7 +50,6 @@ namespace TraceabilitySystem
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel_masterlabel = new System.Windows.Forms.Panel();
             this.btnMasterNG = new System.Windows.Forms.Button();
-            this.btnMasterColor = new System.Windows.Forms.Button();
             this.btnModel = new System.Windows.Forms.Button();
             this.btnmasteruser = new System.Windows.Forms.Button();
             this.btnmasterlabel = new System.Windows.Forms.Button();
@@ -80,6 +79,7 @@ namespace TraceabilitySystem
             this.panel19 = new System.Windows.Forms.Panel();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.timmerx = new System.Windows.Forms.Timer(this.components);
+            this.btnMasterColor = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel21.SuspendLayout();
             this.panel20.SuspendLayout();
@@ -104,20 +104,18 @@ namespace TraceabilitySystem
             this.panel2.Controls.Add(this.panel20);
             this.panel2.Controls.Add(this.icon_sato_large);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(8, 11);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel2.Location = new System.Drawing.Point(5, 7);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1217, 75);
+            this.panel2.Size = new System.Drawing.Size(812, 49);
             this.panel2.TabIndex = 1;
             // 
             // panel21
             // 
             this.panel21.Controls.Add(this.lbldatetime);
             this.panel21.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel21.Location = new System.Drawing.Point(739, 0);
-            this.panel21.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel21.Location = new System.Drawing.Point(493, 0);
             this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(376, 75);
+            this.panel21.Size = new System.Drawing.Size(251, 49);
             this.panel21.TabIndex = 3;
             // 
             // lbldatetime
@@ -131,9 +129,8 @@ namespace TraceabilitySystem
             this.lbldatetime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbldatetime.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldatetime.Location = new System.Drawing.Point(0, 0);
-            this.lbldatetime.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbldatetime.Name = "lbldatetime";
-            this.lbldatetime.Size = new System.Drawing.Size(376, 75);
+            this.lbldatetime.Size = new System.Drawing.Size(251, 49);
             this.lbldatetime.TabIndex = 0;
             this.lbldatetime.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.lbldatetime.UseVisualStyleBackColor = false;
@@ -143,18 +140,16 @@ namespace TraceabilitySystem
             this.panel20.Controls.Add(this.pictureBox1);
             this.panel20.Controls.Add(this.pict_logout);
             this.panel20.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel20.Location = new System.Drawing.Point(1115, 0);
-            this.panel20.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel20.Location = new System.Drawing.Point(744, 0);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(102, 75);
+            this.panel20.Size = new System.Drawing.Size(68, 49);
             this.panel20.TabIndex = 2;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(8, 11);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(5, 7);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(38, 45);
+            this.pictureBox1.Size = new System.Drawing.Size(25, 29);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -163,10 +158,9 @@ namespace TraceabilitySystem
             // pict_logout
             // 
             this.pict_logout.Image = ((System.Drawing.Image)(resources.GetObject("pict_logout.Image")));
-            this.pict_logout.Location = new System.Drawing.Point(52, 12);
-            this.pict_logout.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pict_logout.Location = new System.Drawing.Point(35, 8);
             this.pict_logout.Name = "pict_logout";
-            this.pict_logout.Size = new System.Drawing.Size(39, 42);
+            this.pict_logout.Size = new System.Drawing.Size(26, 27);
             this.pict_logout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pict_logout.TabIndex = 1;
             this.pict_logout.TabStop = false;
@@ -178,10 +172,9 @@ namespace TraceabilitySystem
             // 
             this.icon_sato_large.BackColor = System.Drawing.Color.Transparent;
             this.icon_sato_large.Image = global::TraceabilitySystem.Properties.Resources.Logo1;
-            this.icon_sato_large.Location = new System.Drawing.Point(42, 6);
-            this.icon_sato_large.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.icon_sato_large.Location = new System.Drawing.Point(28, 4);
             this.icon_sato_large.Name = "icon_sato_large";
-            this.icon_sato_large.Size = new System.Drawing.Size(201, 62);
+            this.icon_sato_large.Size = new System.Drawing.Size(134, 40);
             this.icon_sato_large.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.icon_sato_large.TabIndex = 0;
             this.icon_sato_large.TabStop = false;
@@ -189,28 +182,25 @@ namespace TraceabilitySystem
             // panel1
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 3);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel1.Location = new System.Drawing.Point(0, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(8, 905);
+            this.panel1.Size = new System.Drawing.Size(5, 588);
             this.panel1.TabIndex = 2;
             // 
             // panel3
             // 
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(8, 900);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel3.Location = new System.Drawing.Point(5, 585);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1217, 8);
+            this.panel3.Size = new System.Drawing.Size(812, 5);
             this.panel3.TabIndex = 3;
             // 
             // panel4
             // 
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(1225, 3);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel4.Location = new System.Drawing.Point(817, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(8, 905);
+            this.panel4.Size = new System.Drawing.Size(5, 588);
             this.panel4.TabIndex = 4;
             // 
             // panel5
@@ -218,38 +208,34 @@ namespace TraceabilitySystem
             this.panel5.BackColor = System.Drawing.Color.Black;
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1233, 3);
+            this.panel5.Size = new System.Drawing.Size(822, 2);
             this.panel5.TabIndex = 5;
             // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.Transparent;
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(8, 3);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel7.Location = new System.Drawing.Point(5, 2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1217, 8);
+            this.panel7.Size = new System.Drawing.Size(812, 5);
             this.panel7.TabIndex = 7;
             // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.LightGray;
             this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(8, 86);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel8.Location = new System.Drawing.Point(5, 56);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1217, 3);
+            this.panel8.Size = new System.Drawing.Size(812, 2);
             this.panel8.TabIndex = 9;
             // 
             // panel6
             // 
             this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel6.Location = new System.Drawing.Point(286, 89);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel6.Location = new System.Drawing.Point(191, 58);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(4, 771);
+            this.panel6.Size = new System.Drawing.Size(3, 499);
             this.panel6.TabIndex = 8;
             // 
             // panel_menu
@@ -263,10 +249,9 @@ namespace TraceabilitySystem
             this.panel_menu.Controls.Add(this.panel10);
             this.panel_menu.Controls.Add(this.panel9);
             this.panel_menu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel_menu.Location = new System.Drawing.Point(8, 89);
-            this.panel_menu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel_menu.Location = new System.Drawing.Point(5, 58);
             this.panel_menu.Name = "panel_menu";
-            this.panel_menu.Size = new System.Drawing.Size(278, 811);
+            this.panel_menu.Size = new System.Drawing.Size(186, 527);
             this.panel_menu.TabIndex = 0;
             // 
             // flowLayoutPanel1
@@ -275,10 +260,9 @@ namespace TraceabilitySystem
             this.flowLayoutPanel1.Controls.Add(this.panel_masterlabel);
             this.flowLayoutPanel1.Controls.Add(this.paneldropHistory);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 206);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 135);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(276, 561);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(184, 362);
             this.flowLayoutPanel1.TabIndex = 11;
             // 
             // panel_masterlabel
@@ -289,12 +273,11 @@ namespace TraceabilitySystem
             this.panel_masterlabel.Controls.Add(this.btnModel);
             this.panel_masterlabel.Controls.Add(this.btnmasteruser);
             this.panel_masterlabel.Controls.Add(this.btnmasterlabel);
-            this.panel_masterlabel.Location = new System.Drawing.Point(4, 5);
-            this.panel_masterlabel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel_masterlabel.MaximumSize = new System.Drawing.Size(272, 294);
-            this.panel_masterlabel.MinimumSize = new System.Drawing.Size(272, 58);
+            this.panel_masterlabel.Location = new System.Drawing.Point(3, 3);
+            this.panel_masterlabel.MaximumSize = new System.Drawing.Size(181, 153);
+            this.panel_masterlabel.MinimumSize = new System.Drawing.Size(181, 38);
             this.panel_masterlabel.Name = "panel_masterlabel";
-            this.panel_masterlabel.Size = new System.Drawing.Size(272, 58);
+            this.panel_masterlabel.Size = new System.Drawing.Size(181, 38);
             this.panel_masterlabel.TabIndex = 11;
             // 
             // btnMasterNG
@@ -311,41 +294,15 @@ namespace TraceabilitySystem
             this.btnMasterNG.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.btnMasterNG.ForeColor = System.Drawing.Color.Black;
             this.btnMasterNG.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMasterNG.Location = new System.Drawing.Point(0, 232);
-            this.btnMasterNG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnMasterNG.Location = new System.Drawing.Point(0, 152);
             this.btnMasterNG.Name = "btnMasterNG";
-            this.btnMasterNG.Size = new System.Drawing.Size(272, 58);
+            this.btnMasterNG.Size = new System.Drawing.Size(181, 38);
             this.btnMasterNG.TabIndex = 3;
             this.btnMasterNG.Text = "   Master NG";
             this.btnMasterNG.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMasterNG.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnMasterNG.UseVisualStyleBackColor = false;
             this.btnMasterNG.Click += new System.EventHandler(this.btnMasterNG_Click);
-            // 
-            // btnMasterColor
-            // 
-            this.btnMasterColor.AllowDrop = true;
-            this.btnMasterColor.BackColor = System.Drawing.Color.Gainsboro;
-            this.btnMasterColor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnMasterColor.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnMasterColor.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnMasterColor.FlatAppearance.BorderSize = 0;
-            this.btnMasterColor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gainsboro;
-            this.btnMasterColor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
-            this.btnMasterColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMasterColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnMasterColor.ForeColor = System.Drawing.Color.Black;
-            this.btnMasterColor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMasterColor.Location = new System.Drawing.Point(0, 174);
-            this.btnMasterColor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnMasterColor.Name = "btnMasterColor";
-            this.btnMasterColor.Size = new System.Drawing.Size(272, 58);
-            this.btnMasterColor.TabIndex = 2;
-            this.btnMasterColor.Text = "   Master Color";
-            this.btnMasterColor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMasterColor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnMasterColor.UseVisualStyleBackColor = false;
-            this.btnMasterColor.Click += new System.EventHandler(this.btnMasterColor_Click);
             // 
             // btnModel
             // 
@@ -361,10 +318,9 @@ namespace TraceabilitySystem
             this.btnModel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.btnModel.ForeColor = System.Drawing.Color.Black;
             this.btnModel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnModel.Location = new System.Drawing.Point(0, 116);
-            this.btnModel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnModel.Location = new System.Drawing.Point(0, 76);
             this.btnModel.Name = "btnModel";
-            this.btnModel.Size = new System.Drawing.Size(272, 58);
+            this.btnModel.Size = new System.Drawing.Size(181, 38);
             this.btnModel.TabIndex = 2;
             this.btnModel.Text = "   Master Model";
             this.btnModel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -386,10 +342,9 @@ namespace TraceabilitySystem
             this.btnmasteruser.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.btnmasteruser.ForeColor = System.Drawing.Color.Black;
             this.btnmasteruser.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnmasteruser.Location = new System.Drawing.Point(0, 58);
-            this.btnmasteruser.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnmasteruser.Location = new System.Drawing.Point(0, 38);
             this.btnmasteruser.Name = "btnmasteruser";
-            this.btnmasteruser.Size = new System.Drawing.Size(272, 58);
+            this.btnmasteruser.Size = new System.Drawing.Size(181, 38);
             this.btnmasteruser.TabIndex = 2;
             this.btnmasteruser.Text = "   Master User";
             this.btnmasteruser.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -412,9 +367,8 @@ namespace TraceabilitySystem
             this.btnmasterlabel.ForeColor = System.Drawing.Color.Black;
             this.btnmasterlabel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnmasterlabel.Location = new System.Drawing.Point(0, 0);
-            this.btnmasterlabel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnmasterlabel.Name = "btnmasterlabel";
-            this.btnmasterlabel.Size = new System.Drawing.Size(272, 58);
+            this.btnmasterlabel.Size = new System.Drawing.Size(181, 38);
             this.btnmasterlabel.TabIndex = 2;
             this.btnmasterlabel.Text = " Master";
             this.btnmasterlabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -430,12 +384,11 @@ namespace TraceabilitySystem
             this.paneldropHistory.Controls.Add(this.BtnReportQA5);
             this.paneldropHistory.Controls.Add(this.BtnHistory);
             this.paneldropHistory.Dock = System.Windows.Forms.DockStyle.Top;
-            this.paneldropHistory.Location = new System.Drawing.Point(4, 73);
-            this.paneldropHistory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.paneldropHistory.MaximumSize = new System.Drawing.Size(272, 237);
-            this.paneldropHistory.MinimumSize = new System.Drawing.Size(272, 58);
+            this.paneldropHistory.Location = new System.Drawing.Point(3, 47);
+            this.paneldropHistory.MaximumSize = new System.Drawing.Size(181, 154);
+            this.paneldropHistory.MinimumSize = new System.Drawing.Size(181, 38);
             this.paneldropHistory.Name = "paneldropHistory";
-            this.paneldropHistory.Size = new System.Drawing.Size(272, 58);
+            this.paneldropHistory.Size = new System.Drawing.Size(181, 38);
             this.paneldropHistory.TabIndex = 7;
             // 
             // btnReportNG
@@ -452,10 +405,9 @@ namespace TraceabilitySystem
             this.btnReportNG.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.btnReportNG.ForeColor = System.Drawing.Color.Black;
             this.btnReportNG.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReportNG.Location = new System.Drawing.Point(0, 174);
-            this.btnReportNG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnReportNG.Location = new System.Drawing.Point(0, 114);
             this.btnReportNG.Name = "btnReportNG";
-            this.btnReportNG.Size = new System.Drawing.Size(272, 58);
+            this.btnReportNG.Size = new System.Drawing.Size(181, 38);
             this.btnReportNG.TabIndex = 4;
             this.btnReportNG.Text = "  Report NG";
             this.btnReportNG.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -477,10 +429,9 @@ namespace TraceabilitySystem
             this.BtnReportQA6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.BtnReportQA6.ForeColor = System.Drawing.Color.Black;
             this.BtnReportQA6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnReportQA6.Location = new System.Drawing.Point(0, 116);
-            this.BtnReportQA6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BtnReportQA6.Location = new System.Drawing.Point(0, 76);
             this.BtnReportQA6.Name = "BtnReportQA6";
-            this.BtnReportQA6.Size = new System.Drawing.Size(272, 58);
+            this.BtnReportQA6.Size = new System.Drawing.Size(181, 38);
             this.BtnReportQA6.TabIndex = 3;
             this.BtnReportQA6.Text = "  Report QA6";
             this.BtnReportQA6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -502,10 +453,9 @@ namespace TraceabilitySystem
             this.BtnReportQA5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.BtnReportQA5.ForeColor = System.Drawing.Color.Black;
             this.BtnReportQA5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnReportQA5.Location = new System.Drawing.Point(0, 58);
-            this.BtnReportQA5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BtnReportQA5.Location = new System.Drawing.Point(0, 38);
             this.BtnReportQA5.Name = "BtnReportQA5";
-            this.BtnReportQA5.Size = new System.Drawing.Size(272, 58);
+            this.BtnReportQA5.Size = new System.Drawing.Size(181, 38);
             this.BtnReportQA5.TabIndex = 2;
             this.BtnReportQA5.Text = "  Report QA5";
             this.BtnReportQA5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -528,9 +478,8 @@ namespace TraceabilitySystem
             this.BtnHistory.ForeColor = System.Drawing.Color.Black;
             this.BtnHistory.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnHistory.Location = new System.Drawing.Point(0, 0);
-            this.BtnHistory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnHistory.Name = "BtnHistory";
-            this.BtnHistory.Size = new System.Drawing.Size(272, 58);
+            this.BtnHistory.Size = new System.Drawing.Size(181, 38);
             this.BtnHistory.TabIndex = 2;
             this.BtnHistory.Text = "Report";
             this.BtnHistory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -542,40 +491,36 @@ namespace TraceabilitySystem
             // 
             this.panel13.BackColor = System.Drawing.Color.DarkGray;
             this.panel13.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel13.Location = new System.Drawing.Point(0, 175);
-            this.panel13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel13.Location = new System.Drawing.Point(0, 115);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(276, 31);
+            this.panel13.Size = new System.Drawing.Size(184, 20);
             this.panel13.TabIndex = 2;
             // 
             // panel11
             // 
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel11.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel11.Location = new System.Drawing.Point(0, 767);
-            this.panel11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel11.Location = new System.Drawing.Point(0, 497);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(276, 0);
+            this.panel11.Size = new System.Drawing.Size(184, 1);
             this.panel11.TabIndex = 10;
             // 
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.DarkGray;
             this.panel12.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel12.Location = new System.Drawing.Point(0, 767);
-            this.panel12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel12.Location = new System.Drawing.Point(0, 498);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(276, 42);
+            this.panel12.Size = new System.Drawing.Size(184, 27);
             this.panel12.TabIndex = 9;
             // 
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel10.Location = new System.Drawing.Point(0, 175);
-            this.panel10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel10.Location = new System.Drawing.Point(0, 114);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(276, 0);
+            this.panel10.Size = new System.Drawing.Size(184, 1);
             this.panel10.TabIndex = 8;
             // 
             // panel9
@@ -585,19 +530,17 @@ namespace TraceabilitySystem
             this.panel9.Controls.Add(this.panel14);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel9.Location = new System.Drawing.Point(0, 0);
-            this.panel9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(276, 175);
+            this.panel9.Size = new System.Drawing.Size(184, 114);
             this.panel9.TabIndex = 7;
             // 
             // panel18
             // 
             this.panel18.Controls.Add(this.user_id);
             this.panel18.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel18.Location = new System.Drawing.Point(0, 105);
-            this.panel18.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel18.Location = new System.Drawing.Point(0, 68);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(276, 35);
+            this.panel18.Size = new System.Drawing.Size(184, 23);
             this.panel18.TabIndex = 5;
             // 
             // user_id
@@ -611,9 +554,8 @@ namespace TraceabilitySystem
             this.user_id.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.user_id.ForeColor = System.Drawing.Color.Black;
             this.user_id.Location = new System.Drawing.Point(0, 0);
-            this.user_id.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.user_id.Name = "user_id";
-            this.user_id.Size = new System.Drawing.Size(276, 35);
+            this.user_id.Size = new System.Drawing.Size(184, 23);
             this.user_id.TabIndex = 0;
             this.user_id.Text = "User ID : 2";
             this.user_id.UseVisualStyleBackColor = false;
@@ -623,9 +565,8 @@ namespace TraceabilitySystem
             this.panel15.Controls.Add(this.name_company);
             this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel15.Location = new System.Drawing.Point(0, 0);
-            this.panel15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(276, 140);
+            this.panel15.Size = new System.Drawing.Size(184, 91);
             this.panel15.TabIndex = 4;
             // 
             // name_company
@@ -639,9 +580,8 @@ namespace TraceabilitySystem
             this.name_company.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name_company.ForeColor = System.Drawing.Color.Black;
             this.name_company.Location = new System.Drawing.Point(0, 0);
-            this.name_company.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.name_company.Name = "name_company";
-            this.name_company.Size = new System.Drawing.Size(276, 111);
+            this.name_company.Size = new System.Drawing.Size(184, 72);
             this.name_company.TabIndex = 1;
             this.name_company.Text = "PT. Yamaha Music Manufacturing Indonesia";
             this.name_company.UseVisualStyleBackColor = false;
@@ -650,10 +590,9 @@ namespace TraceabilitySystem
             // 
             this.panel14.Controls.Add(this.txtuser_name);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel14.Location = new System.Drawing.Point(0, 140);
-            this.panel14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel14.Location = new System.Drawing.Point(0, 91);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(276, 35);
+            this.panel14.Size = new System.Drawing.Size(184, 23);
             this.panel14.TabIndex = 3;
             // 
             // txtuser_name
@@ -667,9 +606,8 @@ namespace TraceabilitySystem
             this.txtuser_name.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtuser_name.ForeColor = System.Drawing.Color.Black;
             this.txtuser_name.Location = new System.Drawing.Point(0, 0);
-            this.txtuser_name.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtuser_name.Name = "txtuser_name";
-            this.txtuser_name.Size = new System.Drawing.Size(276, 35);
+            this.txtuser_name.Size = new System.Drawing.Size(184, 23);
             this.txtuser_name.TabIndex = 0;
             this.txtuser_name.Text = "Name : Rudiawan";
             this.txtuser_name.UseVisualStyleBackColor = false;
@@ -695,10 +633,9 @@ namespace TraceabilitySystem
             this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel16.Controls.Add(this.linkLabel1);
             this.panel16.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel16.Location = new System.Drawing.Point(286, 860);
-            this.panel16.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel16.Location = new System.Drawing.Point(191, 558);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(939, 40);
+            this.panel16.Size = new System.Drawing.Size(626, 27);
             this.panel16.TabIndex = 10;
             // 
             // linkLabel1
@@ -712,10 +649,9 @@ namespace TraceabilitySystem
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
             this.linkLabel1.ForeColor = System.Drawing.Color.Black;
             this.linkLabel1.LinkColor = System.Drawing.Color.White;
-            this.linkLabel1.Location = new System.Drawing.Point(771, 0);
-            this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.linkLabel1.Location = new System.Drawing.Point(514, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(177, 22);
+            this.linkLabel1.Size = new System.Drawing.Size(121, 15);
             this.linkLabel1.TabIndex = 1;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Powered By SATO";
@@ -724,10 +660,9 @@ namespace TraceabilitySystem
             // 
             this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel17.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel17.Location = new System.Drawing.Point(286, 860);
-            this.panel17.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel17.Location = new System.Drawing.Point(191, 557);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(939, 0);
+            this.panel17.Size = new System.Drawing.Size(626, 1);
             this.panel17.TabIndex = 11;
             // 
             // panelMDI
@@ -736,10 +671,9 @@ namespace TraceabilitySystem
             this.panelMDI.BackColor = System.Drawing.Color.White;
             this.panelMDI.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelMDI.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMDI.Location = new System.Drawing.Point(290, 89);
-            this.panelMDI.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panelMDI.Location = new System.Drawing.Point(194, 58);
             this.panelMDI.Name = "panelMDI";
-            this.panelMDI.Size = new System.Drawing.Size(935, 771);
+            this.panelMDI.Size = new System.Drawing.Size(623, 499);
             this.panelMDI.TabIndex = 12;
             this.panelMDI.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMDI_Paint);
             // 
@@ -747,10 +681,9 @@ namespace TraceabilitySystem
             // 
             this.panel19.BackColor = System.Drawing.Color.LightGray;
             this.panel19.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel19.Location = new System.Drawing.Point(1222, 89);
-            this.panel19.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel19.Location = new System.Drawing.Point(815, 58);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(3, 771);
+            this.panel19.Size = new System.Drawing.Size(2, 499);
             this.panel19.TabIndex = 13;
             // 
             // timmerx
@@ -759,12 +692,36 @@ namespace TraceabilitySystem
             this.timmerx.Interval = 1000;
             this.timmerx.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // btnMasterColor
+            // 
+            this.btnMasterColor.AllowDrop = true;
+            this.btnMasterColor.BackColor = System.Drawing.Color.Gainsboro;
+            this.btnMasterColor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMasterColor.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnMasterColor.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnMasterColor.FlatAppearance.BorderSize = 0;
+            this.btnMasterColor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gainsboro;
+            this.btnMasterColor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
+            this.btnMasterColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMasterColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.btnMasterColor.ForeColor = System.Drawing.Color.Black;
+            this.btnMasterColor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMasterColor.Location = new System.Drawing.Point(0, 114);
+            this.btnMasterColor.Name = "btnMasterColor";
+            this.btnMasterColor.Size = new System.Drawing.Size(181, 38);
+            this.btnMasterColor.TabIndex = 2;
+            this.btnMasterColor.Text = "   Master Color";
+            this.btnMasterColor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMasterColor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnMasterColor.UseVisualStyleBackColor = false;
+            this.btnMasterColor.Click += new System.EventHandler(this.btnMasterColor_Click);
+            // 
             // FrmMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1233, 908);
+            this.ClientSize = new System.Drawing.Size(822, 590);
             this.ControlBox = false;
             this.Controls.Add(this.panel19);
             this.Controls.Add(this.panelMDI);
@@ -780,7 +737,6 @@ namespace TraceabilitySystem
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "  ";
@@ -851,7 +807,6 @@ namespace TraceabilitySystem
         private System.Windows.Forms.Button lbldatetime;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel_masterlabel;
-        private System.Windows.Forms.Button btnMasterColor;
         private System.Windows.Forms.Button btnModel;
         private System.Windows.Forms.Button btnmasteruser;
         private System.Windows.Forms.Button btnmasterlabel;
@@ -859,5 +814,6 @@ namespace TraceabilitySystem
         private System.Windows.Forms.PictureBox icon_sato_large;
         private System.Windows.Forms.Button btnMasterNG;
         private System.Windows.Forms.Button btnReportNG;
+        private System.Windows.Forms.Button btnMasterColor;
     }
 }

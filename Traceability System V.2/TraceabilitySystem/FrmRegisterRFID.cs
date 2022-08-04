@@ -197,10 +197,12 @@ namespace TraceabilitySystem
             connect_Text = MyConst.CONNECT;
             ConnectAction();
             txtUnique.Text = 'P' + dtDate.Value.ToString("yyMMdd") + dataacces_CreateRFID.GetUnique();
-            GetDataModel();
-            GetDataColor();
-
-
+            //GetDataModel();
+            //GetDataColor();
+            lblgmccode.Text = "";
+            lblserial.Text = "";
+            lblgmccode.Visible = false;
+            lblserial.Visible = false;
         }
 
         private void ConnectAction()
@@ -1122,19 +1124,21 @@ namespace TraceabilitySystem
                 return;
             }
 
-            if (cbModel.SelectedIndex == -1)
+            if (txtGCMCode.Text == "")
             {
-                MessageBox.Show("Please select model");
+                MessageBox.Show("Please select GMC Code");
                 return;
             }
-
-            if (cbColor.SelectedIndex == -1)
+            if (txtSerialNumber.Text == "")
             {
-                MessageBox.Show("Please select color");
+                MessageBox.Show("Please select Serial");
                 return;
             }
-
-
+            if (txtModel.Text == "")
+            {
+                MessageBox.Show("Please select GMC Code");
+                return;
+            }
             Tag tIn = new Tag();
             if (ur.ReadOneTag(ref tIn))
             {
@@ -1171,7 +1175,6 @@ namespace TraceabilitySystem
                                     txtUnique.Text = "P" + dtDate.Value.ToString("yyMMdd") + dataacces_CreateRFID.GetUnique();
 
                                 }
-
                             }
 
                         }
@@ -1206,6 +1209,113 @@ namespace TraceabilitySystem
             ConnectAction();
             timGetRFIDData.Enabled = true;
             timGetRFIDData.Start();
+        }
+
+        private void txtSerialNumber_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13)
+            {
+                if(txtSerialNumber.Text != "")
+                {
+                    if (txtSerialNumber.TextLength == 7)
+                    {
+                        lblserial.Visible = false;
+                        DataTable dataTable = new DataTable();
+                        dataTable = dataacces_Model.GetDataGMC(txtGCMCode.Text);
+                        if (dataTable.Rows.Count >0)
+                        {
+                            txtModel.Text = dataTable.Rows[0][0].ToString();
+                            txtColor.Text = dataTable.Rows[0][1].ToString();
+                            txtEAN.Text = dataTable.Rows[0][2].ToString();
+                            txtUPC.Text = dataTable.Rows[0][3].ToString();
+                            ID_Model = dataTable.Rows[0][4].ToString();
+                            txtGCMCode.Text = txtSerialNumber.Text;
+                            txtSerialNumber.Text = "";
+                            txtSerialNumber.Focus();
+                        }
+                        else
+                        {
+                            lblserial.Text = "GMC Code Not Register!";
+                            txtSerialNumber.Text = "";
+                        }
+                        
+                    }
+                    else if (txtSerialNumber.TextLength == 9)
+                    {
+                        lblserial.Visible = false;
+                        if (txtGCMCode.Text == "")
+                        {
+                            txtGCMCode.Focus();
+                        }
+                        else
+                        {
+                            btnRegister.Focus();
+                        }
+                    }
+                    else
+                    {
+                        lblserial.Text = "Wrong Barcode!";
+                        lblserial.Visible = true;
+                    }
+                }
+            }
+        }
+        string ID_Model = "";
+        private void txtGCMCode_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13)
+            {
+                if (txtGCMCode.Text != "")
+                {
+                    if (txtGCMCode.TextLength == 7)
+                    {
+                        lblgmccode.Visible = false;
+                        DataTable dataTable = new DataTable();
+                        dataTable = dataacces_Model.GetDataGMC(txtGCMCode.Text);
+                        if (dataTable.Rows.Count > 0)
+                        {
+                            txtModel.Text = dataTable.Rows[0][0].ToString();
+                            txtColor.Text = dataTable.Rows[0][1].ToString();
+                            txtEAN.Text = dataTable.Rows[0][2].ToString();
+                            txtUPC.Text = dataTable.Rows[0][3].ToString();
+                            ID_Model = dataTable.Rows[0][4].ToString();
+
+                            if (txtSerialNumber.Text == "")
+                            {
+                                txtSerialNumber.Focus();
+                            }
+                            else
+                            {
+                                btnRegister.Focus();
+                            }
+                        }
+                        else
+                        {
+                            lblgmccode.Text = "GMC Code Not Register!";
+                            lblgmccode.Visible = true;
+                            txtGCMCode.Text = "";
+                        }
+
+                    }
+                    else if (txtGCMCode.TextLength == 9)
+                    {
+                        lblgmccode.Visible = false;
+                        if (txtGCMCode.Text == "")
+                        {
+                            txtGCMCode.Focus();
+                        }
+                        else
+                        {
+                            btnRegister.Focus();
+                        }
+                    }
+                    else
+                    {
+                        lblgmccode.Text = "Wrong Barcode!";
+                        lblgmccode.Visible = true;
+                    }
+                }
+            }
         }
     }
 }

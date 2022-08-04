@@ -96,9 +96,7 @@ namespace TraceabilitySystem
                                 txtUserID.Text = col[2].ToString();
                                 txtPassword.Text = col[3].ToString();
                                 cbCom.Text = "COM" + col[4].ToString();
-
                             }
-
                         }
                     }
                     objReader.Dispose();

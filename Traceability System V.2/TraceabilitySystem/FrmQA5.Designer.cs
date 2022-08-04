@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmQA5));
             this.PanelUtama = new System.Windows.Forms.Panel();
             this.BtnStartProcess = new System.Windows.Forms.Button();
             this.txttimeNow = new System.Windows.Forms.TextBox();
@@ -83,7 +82,7 @@
             this.PanelUtama.Controls.Add(this.panel7);
             this.PanelUtama.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelUtama.Location = new System.Drawing.Point(0, 0);
-            this.PanelUtama.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PanelUtama.Margin = new System.Windows.Forms.Padding(2);
             this.PanelUtama.Name = "PanelUtama";
             this.PanelUtama.Size = new System.Drawing.Size(1040, 640);
             this.PanelUtama.TabIndex = 0;
@@ -99,7 +98,7 @@
             this.BtnStartProcess.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnStartProcess.ForeColor = System.Drawing.Color.White;
             this.BtnStartProcess.Location = new System.Drawing.Point(328, 526);
-            this.BtnStartProcess.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnStartProcess.Margin = new System.Windows.Forms.Padding(2);
             this.BtnStartProcess.Name = "BtnStartProcess";
             this.BtnStartProcess.Size = new System.Drawing.Size(435, 61);
             this.BtnStartProcess.TabIndex = 39;
@@ -112,7 +111,7 @@
             this.txttimeNow.BackColor = System.Drawing.Color.LightGray;
             this.txttimeNow.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txttimeNow.Location = new System.Drawing.Point(752, 284);
-            this.txttimeNow.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txttimeNow.Margin = new System.Windows.Forms.Padding(2);
             this.txttimeNow.Name = "txttimeNow";
             this.txttimeNow.ReadOnly = true;
             this.txttimeNow.Size = new System.Drawing.Size(213, 26);
@@ -136,7 +135,7 @@
             this.txtOperatorName.BackColor = System.Drawing.Color.LightGray;
             this.txtOperatorName.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtOperatorName.Location = new System.Drawing.Point(752, 219);
-            this.txtOperatorName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtOperatorName.Margin = new System.Windows.Forms.Padding(2);
             this.txtOperatorName.Name = "txtOperatorName";
             this.txtOperatorName.ReadOnly = true;
             this.txtOperatorName.Size = new System.Drawing.Size(213, 26);
@@ -160,7 +159,7 @@
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.Location = new System.Drawing.Point(640, 170);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(324, 19);
@@ -174,7 +173,7 @@
             this.panel2.Controls.Add(this.btnTransactionList);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 76);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1038, 44);
             this.panel2.TabIndex = 33;
@@ -190,7 +189,7 @@
             this.btnTransactionList.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTransactionList.ForeColor = System.Drawing.Color.White;
             this.btnTransactionList.Location = new System.Drawing.Point(848, 5);
-            this.btnTransactionList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTransactionList.Margin = new System.Windows.Forms.Padding(2);
             this.btnTransactionList.Name = "btnTransactionList";
             this.btnTransactionList.Size = new System.Drawing.Size(182, 35);
             this.btnTransactionList.TabIndex = 2;
@@ -212,7 +211,7 @@
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Location = new System.Drawing.Point(63, 158);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(471, 281);
             this.panel1.TabIndex = 0;
@@ -222,7 +221,7 @@
             this.txtColorName.BackColor = System.Drawing.Color.LightGray;
             this.txtColorName.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtColorName.Location = new System.Drawing.Point(181, 210);
-            this.txtColorName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtColorName.Margin = new System.Windows.Forms.Padding(2);
             this.txtColorName.Name = "txtColorName";
             this.txtColorName.Size = new System.Drawing.Size(232, 26);
             this.txtColorName.TabIndex = 30;
@@ -234,7 +233,7 @@
             this.txtModelName.BackColor = System.Drawing.Color.LightGray;
             this.txtModelName.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtModelName.Location = new System.Drawing.Point(181, 159);
-            this.txtModelName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtModelName.Margin = new System.Windows.Forms.Padding(2);
             this.txtModelName.Name = "txtModelName";
             this.txtModelName.Size = new System.Drawing.Size(232, 26);
             this.txtModelName.TabIndex = 29;
@@ -246,7 +245,7 @@
             this.txtEPC.BackColor = System.Drawing.Color.LightGray;
             this.txtEPC.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEPC.Location = new System.Drawing.Point(181, 112);
-            this.txtEPC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtEPC.Margin = new System.Windows.Forms.Padding(2);
             this.txtEPC.Name = "txtEPC";
             this.txtEPC.Size = new System.Drawing.Size(232, 26);
             this.txtEPC.TabIndex = 28;
@@ -258,7 +257,7 @@
             this.txtRFIDSerial.BackColor = System.Drawing.Color.LightGray;
             this.txtRFIDSerial.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRFIDSerial.Location = new System.Drawing.Point(181, 65);
-            this.txtRFIDSerial.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtRFIDSerial.Margin = new System.Windows.Forms.Padding(2);
             this.txtRFIDSerial.Name = "txtRFIDSerial";
             this.txtRFIDSerial.Size = new System.Drawing.Size(232, 26);
             this.txtRFIDSerial.TabIndex = 27;
@@ -270,7 +269,7 @@
             this.txtUnique.BackColor = System.Drawing.Color.LightGray;
             this.txtUnique.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUnique.Location = new System.Drawing.Point(181, 16);
-            this.txtUnique.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUnique.Margin = new System.Windows.Forms.Padding(2);
             this.txtUnique.Name = "txtUnique";
             this.txtUnique.Size = new System.Drawing.Size(232, 26);
             this.txtUnique.TabIndex = 26;
@@ -343,7 +342,7 @@
             this.panel3.Controls.Add(this.txtMessage);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 40);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1038, 36);
             this.panel3.TabIndex = 40;
@@ -356,7 +355,7 @@
             this.txtMessage.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMessage.ForeColor = System.Drawing.Color.Black;
             this.txtMessage.Location = new System.Drawing.Point(0, 0);
-            this.txtMessage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMessage.Margin = new System.Windows.Forms.Padding(2);
             this.txtMessage.Name = "txtMessage";
             this.txtMessage.Size = new System.Drawing.Size(1038, 38);
             this.txtMessage.TabIndex = 32;
@@ -371,7 +370,7 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.ForeColor = System.Drawing.Color.White;
             this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(1038, 40);
             this.panel7.TabIndex = 2;
@@ -380,7 +379,6 @@
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(1004, 6);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(25, 29);
@@ -390,8 +388,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.ErrorImage")));
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.ErrorImage = null;
             this.pictureBox3.Location = new System.Drawing.Point(8, 3);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(30, 32);
@@ -432,7 +429,6 @@
             this.ClientSize = new System.Drawing.Size(1040, 640);
             this.Controls.Add(this.PanelUtama);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmQA5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmMasterusers";

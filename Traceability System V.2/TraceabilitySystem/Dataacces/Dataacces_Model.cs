@@ -142,27 +142,34 @@ namespace TraceabilitySystem.Dataacces
                     dv.DataSource = dt;
                     dv.Columns[0].HeaderText = " ";
                     dv.Columns[1].HeaderText = "No.";
-                    dv.Columns[3].HeaderText = "Model Name";
-                    dv.Columns[4].HeaderText = "Description";
-                    dv.Columns[5].HeaderText = "Last Update";
+                    dv.Columns[3].HeaderText = "GMC Code";
+                    dv.Columns[4].HeaderText = "Model";
+                    dv.Columns[5].HeaderText = "Color";
+                    dv.Columns[6].HeaderText = "EAN";
+                    dv.Columns[7].HeaderText = "UPC";
+                    dv.Columns[8].HeaderText = "Last Update";
                     dv.Columns[2].Visible = false;
                 }
                 else
                 {
-                    dv.ColumnCount = 4;
+                    dv.ColumnCount = 7;
                     dv.ColumnHeadersVisible = true;
 
                     // Set the column header names.
                     addcolumn(dv);
-                   
-                    dv.Columns[0].HeaderText = "No.";
-                    dv.Columns[1].HeaderText = "Model Name";
-                    dv.Columns[2].HeaderText = "Description";
-                    dv.Columns[3].HeaderText = "Last Update";
+
+                    dv.Columns[0].HeaderText = " ";
+                    dv.Columns[1].HeaderText = "No.";
+                    dv.Columns[2].HeaderText = "GMC Code";
+                    dv.Columns[3].HeaderText = "Model";
+                    dv.Columns[4].HeaderText = "Color";
+                    dv.Columns[5].HeaderText = "EAN";
+                    dv.Columns[6].HeaderText = "UPC";
+                    dv.Columns[7].HeaderText = "Last Update";
                     dv.Columns[1].Width = 50;
 
                     // Populate the rows.
-                    string[] row1 = new string[] {  "", "", "",""};
+                    string[] row1 = new string[] {  "", "", "","","","",""};
 
                     object[] rows = new object[] { row1 };
 
@@ -227,14 +234,14 @@ namespace TraceabilitySystem.Dataacces
             DataGridViewCheckBoxColumn checkColumn = new DataGridViewCheckBoxColumn();
             checkColumn.Name = "Select";
             checkColumn.HeaderText = " ";
-            checkColumn.Width = 50;
+            checkColumn.Width = 70;
             checkColumn.ReadOnly = false;
 
             checkColumn.TrueValue = "true";
 
             checkColumn.FalseValue = "false";
             //checkColumn.DataPropertyName = "chk";
-            checkColumn.FillWeight = 10; //if the datagridview is resized (on form resize) the checkbox won't take up too much; value is relative to the other columns' fill values
+            checkColumn.FillWeight = 30; //if the datagridview is resized (on form resize) the checkbox won't take up too much; value is relative to the other columns' fill values
             dv.Columns.Add(checkColumn);
             dv.Columns["Select"].DisplayIndex = 0;
         }
@@ -307,5 +314,35 @@ namespace TraceabilitySystem.Dataacces
             AppSettings.SaveLogs(str, header);
         }
 
+        internal DataTable GetDataGMC(string text)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                using (var mycon = new SqlConnection(DBConnections.AppConnectionString))
+                {
+                    OpenConnect(mycon);
+                    if (openconnect == true)
+                    {
+                        const string strQuery = @"[dbo].[SATO_GMC_SELECT]";
+                        SqlCommand cmd = new SqlCommand();
+                        cmd.Connection = mycon;
+                        cmd.CommandText = strQuery;
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                        SqlDataAdapter da = new SqlDataAdapter();
+                        da.SelectCommand = cmd;
+                        da.Fill(dt);
+                        mycon.Close();
+                    }
+                }
+                return dt;
+            }
+            catch (Exception EX)
+            {
+                MessageBox.Show("Error Get Data GMC : " + EX.ToString());
+                savelog("Error Get Data GMC : " + EX.ToString());
+                return dt;
+            }
+        }
     }
 }

@@ -27,7 +27,7 @@ namespace TraceabilitySystem
         {
             panelgrid.Dock = DockStyle.Fill;
          //   panelclientuser.Visible = false;
-                    dataacces_Model.showgrid(DatagridModel);
+            dataacces_Model.showgrid(DatagridModel);
 
 
         }
@@ -49,112 +49,143 @@ namespace TraceabilitySystem
         WaitWnd.WaitWndFun waitForm = new WaitWnd.WaitWndFun();
         private void Btnadd_Click(object sender, EventArgs e)
         {
-            if (txtModelName.Text == "")
+            if (txtGmcCode.Text == "")
             {
-                MessageBox.Show("Please Enter Model Name");
-                txtModelName.Focus();
+                MessageBox.Show("Please Enter GMC Code");
+                txtGmcCode.Focus();
                 return;
             }
-            if (txtdescription.Text == "")
+            if (txtModel.Text == "")
             {
-                MessageBox.Show("Please Enter Description");
-                txtdescription.Focus();
+                MessageBox.Show("Please Enter Model");
+                txtModel.Focus();
+                return;
+            }
+            if (txtColor.Text == "")
+            {
+                MessageBox.Show("Please Enter Color");
+                txtGmcCode.Focus();
+                return;
+            }
+            if (txtEAN.Text == "")
+            {
+                MessageBox.Show("Please Enter EAN");
+                txtEAN.Focus();
+                return;
+            }
+            if (txtUPC.Text == "")
+            {
+                MessageBox.Show("Please Enter UPC");
+                txtUPC.Focus();
                 return;
             }
             if (Btnadd.Text == "Save")
             {
-               
-                    model.Model_Name = txtModelName.Text;
-                    model.Description = txtdescription.Text;
-                    string check = dataacces_Model.CheckDataModelNameExists(model);
 
-                    if (check == null)
-                    {
-                        DialogResult dialogResult = MessageBox.Show("Are you sure want to save the data?", "attention", MessageBoxButtons.YesNo);
-                        if (dialogResult == DialogResult.Yes)
-                        {
-                            if (dataacces_Model.RegisterModel(model))
-                            {
-                                MessageBox.Show("Save Model Successfully");
-                                txtModelName.Text = "";
-                                txtdescription.Text = "";
-                                dataacces_Model.showgrid(DatagridModel);
-                                txtModelName.Focus();
-                            }
-                            else
-                            {
-                                MessageBox.Show("Save Model Failed!");
-                                txtModelName.Focus();
-                                return;
-                            }
-                        }
-                    }
-                    else if (check == "Yes")
-                    {
-                        DialogResult dialogResult2 = MessageBox.Show("Model Name Already Exists Flag Delete" + Environment.NewLine + " Will the data be reactivated?", "attention", MessageBoxButtons.YesNo);
-                        if (dialogResult2 == DialogResult.Yes)
-                        {
-                            if (dataacces_Model.DeleteModel(model, "reactived") == true)
-                            {
-                                MessageBox.Show("Reactived Model succesfully", "Success");
-                                dataacces_Model.showgrid(DatagridModel);
-                                txtModelName.Text = "";
-                                txtdescription.Text = "";
-                                dataacces_Model.showgrid(DatagridModel);
-                                txtModelName.Focus();
-                            }
-                            else
-                            {
-                                MessageBox.Show("Reactived Model Failed", "Failed");
-                                return;
-                            }
-                        }
-                    }
-                    else if (check == "No")
-                    {
-                        MessageBox.Show("Model Name Already Exists!");
-                        txtModelName.Focus();
-                        return;
-
-                    }
-                
-            }
-            else
-            {
-                model.Model_Name = txtModelName.Text;
-                model.Description = txtdescription.Text;
-               // string model
+                model.gmccode = txtGmcCode.Text;
+                model.model = txtModel.Text;
+                model.color = txtColor.Text;
+                model.ean = txtEAN.Text;
+                model.upc = txtUPC.Text;
                 string check = dataacces_Model.CheckDataModelNameExists(model);
+
                 if (check == null)
                 {
-                    DialogResult dialogResult = MessageBox.Show("Are you sure want to Update the data?", "attention", MessageBoxButtons.YesNo);
+                    DialogResult dialogResult = MessageBox.Show("Are you sure want to save the data?", "attention", MessageBoxButtons.YesNo);
                     if (dialogResult == DialogResult.Yes)
                     {
-                        model.Model_Name = txtModelName.Text;
-                        model.Description = txtdescription.Text;
-                        if (dataacces_Model.UpdateModel(model))
+                        if (dataacces_Model.RegisterModel(model))
                         {
-                            MessageBox.Show("Update Model Successfully");
-                            Btnadd.Text = "Save";
-                            BtnEdit.Text = "Edit";
-                            txtModelName.Text = "";
-                            txtdescription.Text = "";
+                            MessageBox.Show("Save Model Successfully");
+                            txtGmcCode.Text = "";
+                            txtModel.Text = "";
+                            txtColor.Text = "";
+                            txtEAN.Text = "";
+                            txtUPC.Text = "";
                             dataacces_Model.showgrid(DatagridModel);
-                            txtModelName.Focus();
-
+                            txtGmcCode.Focus();
                         }
                         else
                         {
-                            MessageBox.Show("Update Model Failed!");
-                            txtModelName.Focus();
+                            MessageBox.Show("Save Model Failed!");
+                            txtGmcCode.Focus();
+                            return;
+                        }
+                    }
+                }
+                else if (check == "Yes")
+                {
+                    DialogResult dialogResult2 = MessageBox.Show("GMC Code Already Exists Flag Delete" + Environment.NewLine + " Will the data be reactivated?", "attention", MessageBoxButtons.YesNo);
+                    if (dialogResult2 == DialogResult.Yes)
+                    {
+                        if (dataacces_Model.DeleteModel(model, "reactived") == true)
+                        {
+                            MessageBox.Show("Reactived Model succesfully", "Success");
+                            dataacces_Model.showgrid(DatagridModel);
+                            txtGmcCode.Text = "";
+                            txtModel.Text = "";
+                            txtColor.Text = "";
+                            txtEAN.Text = "";
+                            txtUPC.Text = "";
+                            dataacces_Model.showgrid(DatagridModel);
+                            txtGmcCode.Focus();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Reactived Model Failed", "Failed");
                             return;
                         }
                     }
                 }
                 else if (check == "No")
                 {
-                    MessageBox.Show("Model Name Already Exists!");
-                    txtModelName.Focus();
+                    MessageBox.Show("Gmc Code Already Exists!");
+                    txtGmcCode.Focus();
+                    return;
+
+                }
+                
+            }
+            else
+            {
+                model.gmccode = txtGmcCode.Text;
+                model.model = txtModel.Text;
+                model.color = txtColor.Text;
+                model.ean = txtEAN.Text;
+                model.upc = txtUPC.Text;
+                // string model
+                string check = dataacces_Model.CheckDataModelNameExists(model);
+                if (check == null)
+                {
+                    DialogResult dialogResult = MessageBox.Show("Are you sure want to Update the data?", "attention", MessageBoxButtons.YesNo);
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        if (dataacces_Model.UpdateModel(model))
+                        {
+                            MessageBox.Show("Update Model Successfully");
+                            Btnadd.Text = "Save";
+                            BtnEdit.Text = "Edit";
+                            txtGmcCode.Text = "";
+                            txtModel.Text = "";
+                            txtColor.Text = "";
+                            txtEAN.Text = "";
+                            txtUPC.Text = "";
+                            dataacces_Model.showgrid(DatagridModel);
+                            txtEAN.Focus();
+
+                        }
+                        else
+                        {
+                            MessageBox.Show("Update Model Failed!");
+                            txtGmcCode.Focus();
+                            return;
+                        }
+                    }
+                }
+                else if (check == "No")
+                {
+                    MessageBox.Show("GMC Code Already Exists!");
+                    txtGmcCode.Focus();
                     return;
 
                 }
@@ -176,9 +207,12 @@ namespace TraceabilitySystem
 
                         Btnadd.Text = "Update";
                         BtnEdit.Text = "Cancel";
-                        txtModelName.Text = model.Model_Name;
-                        txtdescription.Text = model.Description;
-                        txtModelName.Focus();
+                        txtGmcCode.Text = model.gmccode;
+                        txtModel.Text = model.model;
+                        txtColor.Text = model.color;
+                        txtEAN.Text = model.ean;
+                        txtUPC.Text = model.upc;
+                        txtGmcCode.Focus();
                     }
                     else
                     {
@@ -191,9 +225,12 @@ namespace TraceabilitySystem
             {
                 Btnadd.Text = "Save";
                 BtnEdit.Text = "Edit";
-                txtModelName.Text = "";
-                txtdescription.Text = "";
-                txtModelName.Focus();
+                txtGmcCode.Text = "";
+                txtModel.Text = "";
+                txtColor.Text = "";
+                txtEAN.Text = "";
+                txtUPC.Text = "";
+                txtGmcCode.Focus();
 
             }
         }
@@ -210,10 +247,12 @@ namespace TraceabilitySystem
                     {
                         DatagridModel.Rows[i].Cells[0].Value = "true";
 
-                        model.Id_Model = Convert.ToInt32(DatagridModel.SelectedCells[2].Value);
-                        model.Model_Name = DatagridModel.SelectedCells[3].Value.ToString();
-                        model.Description = DatagridModel.SelectedCells[4].Value.ToString();
-
+                        model.id_model = Convert.ToInt32(DatagridModel.SelectedCells[2].Value);
+                        model.gmccode = DatagridModel.SelectedCells[3].Value.ToString();
+                        model.model = DatagridModel.SelectedCells[4].Value.ToString();
+                        model.color = DatagridModel.SelectedCells[5].Value.ToString();
+                        model.ean = DatagridModel.SelectedCells[6].Value.ToString();
+                        model.upc = DatagridModel.SelectedCells[7].Value.ToString();
                     }
                     else
                     {
@@ -259,20 +298,6 @@ namespace TraceabilitySystem
                     return;
                 }
 
-            }
-        }
-
-        private void txtModelName_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == (char)13)
-            {
-                if (txtModelName.Text == "")
-                {
-                    MessageBox.Show("Please Enter Model Name");
-                    txtModelName.Focus();
-                    return;
-                }
-                txtdescription.Focus();
             }
         }
     }

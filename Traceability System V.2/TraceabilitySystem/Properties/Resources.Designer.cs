@@ -93,6 +93,16 @@ namespace TraceabilitySystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap log_out2 {
+            get {
+                object obj = ResourceManager.GetObject("log_out2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo {
             get {
                 object obj = ResourceManager.GetObject("Logo", resourceCulture);
@@ -116,6 +126,16 @@ namespace TraceabilitySystem.Properties {
         internal static System.Drawing.Bitmap PC {
             get {
                 object obj = ResourceManager.GetObject("PC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pictureBox1_Image {
+            get {
+                object obj = ResourceManager.GetObject("pictureBox1.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
