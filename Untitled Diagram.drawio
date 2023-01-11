@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T08:52:52.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="MhbteOCzflvFV1IrU0Rq" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-11T08:53:39.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Rcx36Et211-z2OiLXZCO" version="20.8.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3004" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -282,6 +282,15 @@
         </mxCell>
         <mxCell id="S4tk1vwkPnhRa-5dBJaB-78" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Digit ke 10 &amp;lt;= 4&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2485" y="300" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="S4tk1vwkPnhRa-5dBJaB-194" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="S4tk1vwkPnhRa-5dBJaB-79" target="S4tk1vwkPnhRa-5dBJaB-123">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2539.5" y="1030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2540" y="1018" />
+              <mxPoint x="1430" y="1018" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="S4tk1vwkPnhRa-5dBJaB-79" value="Pembulatan ke bawah" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2482" y="503" width="115" height="40" as="geometry" />
