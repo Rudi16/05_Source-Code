@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T08:56:41.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Ybqb4lEhEoIaTN4xuaCV" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-11T08:57:07.459Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="vnULvoZB05XMklq8Pgsq" version="20.8.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2311" dy="897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -278,13 +278,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="S4tk1vwkPnhRa-5dBJaB-76" value="Digit ke 10 = 5" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1245" y="280" width="110" height="110" as="geometry" />
+          <mxGeometry x="1245" y="301" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="S4tk1vwkPnhRa-5dBJaB-77" value="Digit ke 10 &amp;gt; 5" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="884" y="300" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="S4tk1vwkPnhRa-5dBJaB-78" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Digit ke 10 &amp;lt;= 4&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2005" y="280" width="110" height="110" as="geometry" />
+          <mxGeometry x="2005" y="301" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="S4tk1vwkPnhRa-5dBJaB-194" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="S4tk1vwkPnhRa-5dBJaB-79" target="S4tk1vwkPnhRa-5dBJaB-123">
           <mxGeometry relative="1" as="geometry">
