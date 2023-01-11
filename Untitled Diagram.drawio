@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T07:29:53.986Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="aAzFJr5fvV8gtF5kkC0S" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-11T07:30:23.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="UBMEJxGe546R3cC61ER_" version="20.8.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1500" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,8 +119,8 @@
         <mxCell id="S4tk1vwkPnhRa-5dBJaB-34" value="Cek digit ke 9" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="360" y="845" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S4tk1vwkPnhRa-5dBJaB-35" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="520" y="835" width="80" height="80" as="geometry" />
+        <mxCell id="S4tk1vwkPnhRa-5dBJaB-35" value="Digit ke 9 genap" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="827.5" width="110" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
